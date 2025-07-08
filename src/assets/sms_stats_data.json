@@ -1,0 +1,2043 @@
+{
+  "next_history_index" : 9,
+  "stats" : {
+    "history" : [
+      {
+        "end_time" : 1751758458,
+        "finished" : false,
+        "index" : 1,
+        "members" : {},
+        "participants" : {
+          "0" : {
+            "IsPlayer" : 1,
+            "LiveryId" : 65,
+            "Name" : "Santi",
+            "RefId" : 9664,
+            "SteamID" : "76561198860103060",
+            "VehicleId" : 1323381033
+          }
+        },
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135807736,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 30,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 30,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 10,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 10,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {
+          "practice1" : {
+            "end_time" : 1751758458,
+            "events" : {},
+            "results" : {},
+            "start_time" : 1751758327
+          }
+        },
+        "start_time" : 1751758303
+      },
+      {
+        "end_time" : 0,
+        "finished" : false,
+        "index" : 2,
+        "members" : {},
+        "participants" : {},
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135807736,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 30,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 30,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 10,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 10,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {},
+        "start_time" : 1751758590
+      },
+      {
+        "end_time" : 1751759111,
+        "finished" : false,
+        "index" : 3,
+        "members" : {},
+        "participants" : [
+          {
+            "IsPlayer" : 1,
+            "LiveryId" : 71,
+            "Name" : "Santi",
+            "RefId" : 37632,
+            "SteamID" : "76561198860103060",
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 62,
+            "Name" : "Lucas Foresti  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 58,
+            "Name" : "Felipe Lapenna  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 64,
+            "Name" : "Atila Abreu  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 74,
+            "Name" : "Max Wilson  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 77,
+            "Name" : "Gabriel Casagrande  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 70,
+            "Name" : "Ricardo Mauricio  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 56,
+            "Name" : "Valdeno Brito  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 51,
+            "Name" : "Caca Bueno  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 68,
+            "Name" : "Cesar Ramos  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 61,
+            "Name" : "Gustavo Lima  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 75,
+            "Name" : "Diego Nunes  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 55,
+            "Name" : "Julio Campos  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 60,
+            "Name" : "Pedro Cardoso  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 57,
+            "Name" : "Denis Navarro  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 66,
+            "Name" : "Galid Osman  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          {
+            "IsPlayer" : 0,
+            "LiveryId" : 72,
+            "Name" : "Rubens Barrichello  (AI)",
+            "RefId" : 37632,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          }
+        ],
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135938808,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 10,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 10,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {
+          "practice1" : {
+            "end_time" : 1751759111,
+            "events" : {},
+            "results" : {},
+            "start_time" : 1751759082
+          }
+        },
+        "start_time" : 1751759037
+      },
+      {
+        "end_time" : 1751759203,
+        "finished" : false,
+        "index" : 4,
+        "members" : {},
+        "participants" : {
+          "18" : {
+            "IsPlayer" : 1,
+            "LiveryId" : 71,
+            "Name" : "Santi",
+            "RefId" : 64640,
+            "SteamID" : "76561198860103060",
+            "VehicleId" : 1323381033
+          },
+          "19" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 63,
+            "Name" : "Ricardo Zonta  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "20" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 59,
+            "Name" : "Rafael Suzuki  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "21" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 55,
+            "Name" : "Julio Campos  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "22" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 62,
+            "Name" : "Lucas Foresti  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "23" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 60,
+            "Name" : "Pedro Cardoso  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "24" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 70,
+            "Name" : "Ricardo Mauricio  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "25" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 66,
+            "Name" : "Galid Osman  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "26" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 61,
+            "Name" : "Gustavo Lima  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "27" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 72,
+            "Name" : "Rubens Barrichello  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "28" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 51,
+            "Name" : "Caca Bueno  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "29" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 75,
+            "Name" : "Diego Nunes  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "30" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 71,
+            "Name" : "Nelson Piquet Jr  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "31" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 54,
+            "Name" : "Thiago Camilo  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "32" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 52,
+            "Name" : "Felipe Fraga  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "33" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 57,
+            "Name" : "Denis Navarro  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "34" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 73,
+            "Name" : "Bruno Baptista  (AI)",
+            "RefId" : 64640,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          }
+        },
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135938808,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 10,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 10,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {
+          "practice1" : {
+            "end_time" : 1751759203,
+            "events" : {},
+            "results" : {},
+            "start_time" : 1751759191
+          }
+        },
+        "start_time" : 1751759163
+      },
+      {
+        "end_time" : 0,
+        "finished" : false,
+        "index" : 5,
+        "members" : {},
+        "participants" : {},
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135938808,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 0,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 0,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {},
+        "start_time" : 1751759338
+      },
+      {
+        "end_time" : 0,
+        "finished" : false,
+        "index" : 6,
+        "members" : {},
+        "participants" : {},
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135938808,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 0,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 0,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {},
+        "start_time" : 1751759441
+      },
+      {
+        "end_time" : 1751760707,
+        "finished" : true,
+        "index" : 7,
+        "members" : {},
+        "participants" : {
+          "35" : {
+            "IsPlayer" : 1,
+            "LiveryId" : 71,
+            "Name" : "Santi",
+            "RefId" : 15680,
+            "SteamID" : "76561198860103060",
+            "VehicleId" : 1323381033
+          },
+          "36" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 72,
+            "Name" : "Rubens Barrichello  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "37" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 76,
+            "Name" : "Marcos Gomes  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "38" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 69,
+            "Name" : "Daniel Serra  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "39" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 60,
+            "Name" : "Pedro Cardoso  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "40" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 74,
+            "Name" : "Max Wilson  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "41" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 57,
+            "Name" : "Denis Navarro  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "42" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 62,
+            "Name" : "Lucas Foresti  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "43" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 78,
+            "Name" : "Marcel Coletta  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "44" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 64,
+            "Name" : "Atila Abreu  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "45" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 51,
+            "Name" : "Caca Bueno  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "46" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 54,
+            "Name" : "Thiago Camilo  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "47" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 67,
+            "Name" : "Allam Khodair  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "48" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 75,
+            "Name" : "Diego Nunes  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "49" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 58,
+            "Name" : "Felipe Lapenna  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "50" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 61,
+            "Name" : "Gustavo Lima  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          },
+          "51" : {
+            "IsPlayer" : 0,
+            "LiveryId" : 63,
+            "Name" : "Ricardo Zonta  (AI)",
+            "RefId" : 15680,
+            "SteamID" : 0,
+            "VehicleId" : 1323381033
+          }
+        },
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 135938808,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 50,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 1,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 1,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 8,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {
+          "practice1" : {
+            "end_time" : 1751759846,
+            "events" : {},
+            "results" : [
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 1,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Ricardo Zonta  (AI)",
+                "participantid" : 51,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 2,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Gustavo Lima  (AI)",
+                "participantid" : 50,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 3,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Felipe Lapenna  (AI)",
+                "participantid" : 49,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 4,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Diego Nunes  (AI)",
+                "participantid" : 48,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 5,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 47,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 6,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Thiago Camilo  (AI)",
+                "participantid" : 46,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 7,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Caca Bueno  (AI)",
+                "participantid" : 45,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 8,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Atila Abreu  (AI)",
+                "participantid" : 44,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 9,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcel Coletta  (AI)",
+                "participantid" : 43,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 10,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Lucas Foresti  (AI)",
+                "participantid" : 42,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 11,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Denis Navarro  (AI)",
+                "participantid" : 41,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 12,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Max Wilson  (AI)",
+                "participantid" : 40,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 13,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Pedro Cardoso  (AI)",
+                "participantid" : 39,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 14,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Daniel Serra  (AI)",
+                "participantid" : 38,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 15,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcos Gomes  (AI)",
+                "participantid" : 37,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 16,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Rubens Barrichello  (AI)",
+                "participantid" : 36,
+                "refid" : 15680,
+                "time" : 1751759824
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 17,
+                  "State" : "Finished",
+                  "TotalTime" : 78884,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 35,
+                "refid" : 15680,
+                "time" : 1751759824
+              }
+            ],
+            "start_time" : 1751759641
+          },
+          "qualifying1" : {
+            "end_time" : 1751760067,
+            "events" : {},
+            "results" : [
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 1,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Ricardo Zonta  (AI)",
+                "participantid" : 51,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 2,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Gustavo Lima  (AI)",
+                "participantid" : 50,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 3,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Felipe Lapenna  (AI)",
+                "participantid" : 49,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 4,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Diego Nunes  (AI)",
+                "participantid" : 48,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 5,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 47,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 6,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Thiago Camilo  (AI)",
+                "participantid" : 46,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 7,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Caca Bueno  (AI)",
+                "participantid" : 45,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 8,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Atila Abreu  (AI)",
+                "participantid" : 44,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 9,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcel Coletta  (AI)",
+                "participantid" : 43,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 10,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Lucas Foresti  (AI)",
+                "participantid" : 42,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 11,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Denis Navarro  (AI)",
+                "participantid" : 41,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 12,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Max Wilson  (AI)",
+                "participantid" : 40,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 13,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Pedro Cardoso  (AI)",
+                "participantid" : 39,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 14,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Daniel Serra  (AI)",
+                "participantid" : 38,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 15,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcos Gomes  (AI)",
+                "participantid" : 37,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 16,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Rubens Barrichello  (AI)",
+                "participantid" : 36,
+                "refid" : 15680,
+                "time" : 1751760049
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 17,
+                  "State" : "Finished",
+                  "TotalTime" : 65716,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 35,
+                "refid" : 15680,
+                "time" : 1751760049
+              }
+            ],
+            "start_time" : 1751759846
+          },
+          "race1" : {
+            "end_time" : 1751760706,
+            "events" : {},
+            "results" : [
+              {
+                "attributes" : {
+                  "FastestLapTime" : 115740,
+                  "Lap" : 4,
+                  "RacePosition" : 1,
+                  "State" : "Finished",
+                  "TotalTime" : 489534,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Diego Nunes  (AI)",
+                "participantid" : 48,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 116968,
+                  "Lap" : 4,
+                  "RacePosition" : 2,
+                  "State" : "Finished",
+                  "TotalTime" : 489576,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Thiago Camilo  (AI)",
+                "participantid" : 46,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 117230,
+                  "Lap" : 4,
+                  "RacePosition" : 3,
+                  "State" : "Finished",
+                  "TotalTime" : 490173,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Ricardo Zonta  (AI)",
+                "participantid" : 51,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 116946,
+                  "Lap" : 4,
+                  "RacePosition" : 4,
+                  "State" : "Finished",
+                  "TotalTime" : 490433,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Caca Bueno  (AI)",
+                "participantid" : 45,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 115960,
+                  "Lap" : 4,
+                  "RacePosition" : 5,
+                  "State" : "Finished",
+                  "TotalTime" : 490653,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Daniel Serra  (AI)",
+                "participantid" : 38,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 117406,
+                  "Lap" : 4,
+                  "RacePosition" : 6,
+                  "State" : "Finished",
+                  "TotalTime" : 493713,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 47,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 119040,
+                  "Lap" : 4,
+                  "RacePosition" : 7,
+                  "State" : "Finished",
+                  "TotalTime" : 497953,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Rubens Barrichello  (AI)",
+                "participantid" : 36,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 117886,
+                  "Lap" : 4,
+                  "RacePosition" : 8,
+                  "State" : "Finished",
+                  "TotalTime" : 498074,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcos Gomes  (AI)",
+                "participantid" : 37,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 122025,
+                  "Lap" : 4,
+                  "RacePosition" : 9,
+                  "State" : "Finished",
+                  "TotalTime" : 498833,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Gustavo Lima  (AI)",
+                "participantid" : 50,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 119006,
+                  "Lap" : 4,
+                  "RacePosition" : 10,
+                  "State" : "Finished",
+                  "TotalTime" : 499433,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Denis Navarro  (AI)",
+                "participantid" : 41,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 120046,
+                  "Lap" : 4,
+                  "RacePosition" : 11,
+                  "State" : "Finished",
+                  "TotalTime" : 501053,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Felipe Lapenna  (AI)",
+                "participantid" : 49,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 119067,
+                  "Lap" : 4,
+                  "RacePosition" : 12,
+                  "State" : "Finished",
+                  "TotalTime" : 501093,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Marcel Coletta  (AI)",
+                "participantid" : 43,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 119824,
+                  "Lap" : 4,
+                  "RacePosition" : 13,
+                  "State" : "Finished",
+                  "TotalTime" : 502473,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Lucas Foresti  (AI)",
+                "participantid" : 42,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 120164,
+                  "Lap" : 4,
+                  "RacePosition" : 14,
+                  "State" : "Finished",
+                  "TotalTime" : 502561,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Pedro Cardoso  (AI)",
+                "participantid" : 39,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 120127,
+                  "Lap" : 4,
+                  "RacePosition" : 15,
+                  "State" : "Finished",
+                  "TotalTime" : 502636,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Max Wilson  (AI)",
+                "participantid" : 40,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 121441,
+                  "Lap" : 4,
+                  "RacePosition" : 16,
+                  "State" : "Finished",
+                  "TotalTime" : 502973,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : false,
+                "name" : "Atila Abreu  (AI)",
+                "participantid" : 44,
+                "refid" : 15680,
+                "time" : 1751760685
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 126991,
+                  "Lap" : 1,
+                  "RacePosition" : 17,
+                  "State" : "DNF",
+                  "TotalTime" : 611404,
+                  "VehicleId" : 1323381033
+                },
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 35,
+                "refid" : 15680,
+                "time" : 1751760685
+              }
+            ],
+            "start_time" : 1751760067
+          }
+        },
+        "start_time" : 1751759608
+      },
+      {
+        "end_time" : 0,
+        "finished" : false,
+        "index" : 8,
+        "members" : {},
+        "participants" : {},
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 0,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 1,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 0,
+          "DamageType" : 3,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 0,
+          "Flags" : 1721081,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 0,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 4,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 70,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 0,
+          "PracticeDateHour" : 17,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 5,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 1,
+          "PracticeWeatherSlot1" : 0,
+          "PracticeWeatherSlot2" : 0,
+          "PracticeWeatherSlot3" : 0,
+          "PracticeWeatherSlot4" : 0,
+          "PracticeWeatherSlots" : 0,
+          "QualifyDateHour" : 17,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 5,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 1,
+          "QualifyWeatherSlot1" : 0,
+          "QualifyWeatherSlot2" : 0,
+          "QualifyWeatherSlot3" : 0,
+          "QualifyWeatherSlot4" : 0,
+          "QualifyWeatherSlots" : 0,
+          "RaceDateDay" : 12,
+          "RaceDateHour" : 17,
+          "RaceDateMonth" : 11,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2021,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 10,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : 888299130,
+          "RaceWeatherSlot3" : -1592958063,
+          "RaceWeatherSlot4" : 296956818,
+          "RaceWeatherSlots" : 4,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : -1478712571,
+          "VehicleClassId" : 492525831,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {},
+        "start_time" : 1751760707
+      }
+    ],
+    "players" : {
+      "76561198860103060" : {
+        "counts" : {
+          "qualify" : {
+            "positions" : {},
+            "positions_per_size" : {},
+            "states" : {}
+          },
+          "race" : {
+            "positions" : {
+              "17" : 1
+            },
+            "positions_per_size" : {
+              "0" : {
+                "17" : 1
+              }
+            },
+            "states" : {
+              "dnf" : 1
+            }
+          },
+          "race_finishes" : 0,
+          "race_joins" : 7,
+          "race_loads" : 0,
+          "race_loads_done" : 0,
+          "track_distances" : {
+            "-1478712571" : 4372
+          },
+          "tracks" : {},
+          "vehicle_distances" : {
+            "1323381033" : 4372
+          },
+          "vehicles" : {}
+        },
+        "last_joined" : 1751759607,
+        "name" : "Santi"
+      }
+    },
+    "server" : {
+      "name" : "CASLA ATN",
+      "steam_disconnects" : 0,
+      "steam_downtime" : 0,
+      "total_steam_downtime" : 0,
+      "total_uptime" : "1985.37",
+      "uptime" : "1409.97"
+    },
+    "session" : {
+      "counts" : {
+        "lobbies" : 8,
+        "player_finishes" : 0,
+        "player_loads" : 0,
+        "player_loads_done" : 0,
+        "race_finishes" : 1,
+        "race_loads" : 4,
+        "race_loads_done" : 4,
+        "sessions" : 7,
+        "stage_counts" : {
+          "practice1" : 4,
+          "qualifying1" : 1,
+          "race1" : 1
+        },
+        "stage_durations" : {
+          "practice1" : 377391,
+          "qualifying1" : 220625,
+          "race1" : 639484
+        },
+        "track_distances" : {
+          "-1478712571" : 4372
+        },
+        "tracks" : {
+          "-1478712571" : 4
+        },
+        "vehicle_distances" : {
+          "1323381033" : 4372
+        },
+        "vehicles" : {}
+      }
+    }
+  }
+}
+
+// EOF //
