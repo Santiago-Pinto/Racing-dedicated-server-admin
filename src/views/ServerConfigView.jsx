@@ -384,7 +384,7 @@ ${rotationMaps.map(map => `		{
                       .sort((a, b) => a.name.localeCompare(b.name))
                       .map(track => (
                     <option key={track.id} value={track.id}>
-                      {track.name} (Grid: {track.gridsize})
+                      {track.name}{track.dlc ? ' [DLC]' : ''} (Grid: {track.gridsize})
                     </option>
                   ))}
                 </select>
