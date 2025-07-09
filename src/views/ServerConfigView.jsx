@@ -399,7 +399,7 @@ ${rotationMaps.map(map => `		{
                     .sort((a, b) => a.translated_name.localeCompare(b.translated_name))
                     .map(car => (
                     <option key={car.value} value={car.value}>
-                      {car.translated_name}
+                      {car.translated_name}{car.dlc ? ' [DLC]' : ''}
                     </option>
                   ))}
                 </select>

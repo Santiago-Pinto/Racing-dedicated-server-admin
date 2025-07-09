@@ -1104,7 +1104,7 @@
     "default_day": 5,
     "default_month": 7,
     "default_year": 1971,
-    "dlc": false
+    "dlc": true
   },
   {
     "id": 399001429,
@@ -1113,7 +1113,7 @@
     "default_day": 5,
     "default_month": 7,
     "default_year": 1971,
-    "dlc": false
+    "dlc": true
   },
   {
     "id": 199279675,
@@ -1122,7 +1122,7 @@
     "default_day": 5,
     "default_month": 7,
     "default_year": 1971,
-    "dlc": false
+    "dlc": true
   },
   {
     "id": -1999809693,
@@ -1131,7 +1131,7 @@
     "default_day": 5,
     "default_month": 7,
     "default_year": 1971,
-    "dlc": false
+    "dlc": true
   },
   {
     "id": -1012344423,
