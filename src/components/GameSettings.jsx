@@ -11,9 +11,10 @@ const GameSettings = ({ config, handleInputChange }) => {
           value={getInputValue(config.damageType)}
           onChange={(e) => handleInputChange('damageType', parseInt(e.target.value) || 0)}
         >
-          <option value={0}>No Damage</option>
+          <option value={0}>Off</option>
           <option value={1}>Visual Only</option>
-          <option value={2}>Full Damage</option>
+          <option value={2}>Performance Impacting</option>
+          <option value={3}>Full Damage</option>
         </select>
       </div>
 
@@ -21,11 +22,14 @@ const GameSettings = ({ config, handleInputChange }) => {
         <label>Tire Wear:</label>
         <select
           value={getInputValue(config.tireWearType)}
-          onChange={(e) => handleInputChange('tireWearType', parseInt(e.target.value) || 0)}
+          onChange={(e) => handleInputChange('tireWearType', parseInt(e.target.value) || 6)}
         >
-          <option value={0}>No Tire Wear</option>
-          <option value={1}>Realistic</option>
-          <option value={2}>Accelerated</option>
+          <option value={2}>X5</option>
+          <option value={3}>X4</option>
+          <option value={4}>X3</option>
+          <option value={5}>X2</option>
+          <option value={6}>Standard</option>
+          <option value={8}>Off</option>
         </select>
       </div>
 
@@ -35,9 +39,12 @@ const GameSettings = ({ config, handleInputChange }) => {
           value={getInputValue(config.fuelUsageType)}
           onChange={(e) => handleInputChange('fuelUsageType', parseInt(e.target.value) || 0)}
         >
-          <option value={0}>No Fuel Usage</option>
-          <option value={1}>Realistic</option>
-          <option value={2}>Accelerated</option>
+          <option value={0}>Standard</option>
+          <option value={2}>Off</option>
+          <option value={3}>X5</option>
+          <option value={4}>X4</option>
+          <option value={5}>X3</option>
+          <option value={6}>X2</option>
         </select>
       </div>
 

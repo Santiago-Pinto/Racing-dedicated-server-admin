@@ -84,27 +84,34 @@ describe('configHelpers', () => {
   describe('type conversion functions', () => {
     describe('damageTypeToString', () => {
       it('should convert damage types correctly', () => {
-        expect(damageTypeToString(0)).toBe('NONE');
+        expect(damageTypeToString(0)).toBe('OFF');
         expect(damageTypeToString(1)).toBe('VISUAL_ONLY');
-        expect(damageTypeToString(2)).toBe('FULL');
+        expect(damageTypeToString(2)).toBe('PERFORMANCEIMPACTING');
+        expect(damageTypeToString(3)).toBe('FULL');
         expect(damageTypeToString(999)).toBe('FULL'); // default
       });
     });
 
     describe('tireWearTypeToString', () => {
       it('should convert tire wear types correctly', () => {
-        expect(tireWearTypeToString(0)).toBe('NONE');
-        expect(tireWearTypeToString(1)).toBe('STANDARD');
-        expect(tireWearTypeToString(2)).toBe('ACCELERATED');
+        expect(tireWearTypeToString(2)).toBe('X5');
+        expect(tireWearTypeToString(3)).toBe('X4');
+        expect(tireWearTypeToString(4)).toBe('X3');
+        expect(tireWearTypeToString(5)).toBe('X2');
+        expect(tireWearTypeToString(6)).toBe('STANDARD');
+        expect(tireWearTypeToString(8)).toBe('OFF');
         expect(tireWearTypeToString(999)).toBe('STANDARD'); // default
       });
     });
 
     describe('fuelUsageTypeToString', () => {
       it('should convert fuel usage types correctly', () => {
-        expect(fuelUsageTypeToString(0)).toBe('NONE');
-        expect(fuelUsageTypeToString(1)).toBe('STANDARD');
-        expect(fuelUsageTypeToString(2)).toBe('ACCELERATED');
+        expect(fuelUsageTypeToString(0)).toBe('STANDARD');
+        expect(fuelUsageTypeToString(2)).toBe('OFF');
+        expect(fuelUsageTypeToString(3)).toBe('X5');
+        expect(fuelUsageTypeToString(4)).toBe('X4');
+        expect(fuelUsageTypeToString(5)).toBe('X3');
+        expect(fuelUsageTypeToString(6)).toBe('X2');
         expect(fuelUsageTypeToString(999)).toBe('STANDARD'); // default
       });
     });

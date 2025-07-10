@@ -29,9 +29,10 @@ export const flagsToNumber = (flags) => {
 // Convert damage type to string
 export const damageTypeToString = (type) => {
   switch (type) {
-  case 0: return 'NONE';
+  case 0: return 'OFF';
   case 1: return 'VISUAL_ONLY';
-  case 2: return 'FULL';
+  case 2: return 'PERFORMANCEIMPACTING';
+  case 3: return 'FULL';
   default: return 'FULL';
   }
 };
@@ -39,9 +40,12 @@ export const damageTypeToString = (type) => {
 // Convert tire wear type to string
 export const tireWearTypeToString = (type) => {
   switch (type) {
-  case 0: return 'NONE';
-  case 1: return 'STANDARD';
-  case 2: return 'ACCELERATED';
+  case 2: return 'X5';
+  case 3: return 'X4';
+  case 4: return 'X3';
+  case 5: return 'X2';
+  case 6: return 'STANDARD';
+  case 8: return 'OFF';
   default: return 'STANDARD';
   }
 };
@@ -49,9 +53,12 @@ export const tireWearTypeToString = (type) => {
 // Convert fuel usage type to string
 export const fuelUsageTypeToString = (type) => {
   switch (type) {
-  case 0: return 'NONE';
-  case 1: return 'STANDARD';
-  case 2: return 'ACCELERATED';
+  case 0: return 'STANDARD';
+  case 2: return 'OFF';
+  case 3: return 'X5';
+  case 4: return 'X4';
+  case 5: return 'X3';
+  case 6: return 'X2';
   default: return 'STANDARD';
   }
 };
