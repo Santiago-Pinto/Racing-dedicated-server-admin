@@ -6,6 +6,8 @@ import {
   tireWearTypeToString,
   fuelUsageTypeToString,
   penaltiesTypeToString,
+  damageScaleToString,
+  pitControlToString,
   getWeatherName,
   getTrackNameById,
   getVehicleClassNameById,
@@ -121,6 +123,24 @@ describe('configHelpers', () => {
         expect(penaltiesTypeToString(0)).toBe('NONE');
         expect(penaltiesTypeToString(1)).toBe('FULL');
         expect(penaltiesTypeToString(999)).toBe('FULL'); // default
+      });
+    });
+
+    describe('damageScaleToString', () => {
+      it('should convert damage scale types correctly', () => {
+        expect(damageScaleToString(0)).toBe('LOW');
+        expect(damageScaleToString(1)).toBe('MEDIUM');
+        expect(damageScaleToString(2)).toBe('HIGH');
+        expect(damageScaleToString(3)).toBe('MAX');
+        expect(damageScaleToString(999)).toBe('MEDIUM'); // default
+      });
+    });
+
+    describe('pitControlToString', () => {
+      it('should convert pit control types correctly', () => {
+        expect(pitControlToString(0)).toBe('Auto');
+        expect(pitControlToString(1)).toBe('Manual');
+        expect(pitControlToString(999)).toBe('Auto'); // default
       });
     });
   });

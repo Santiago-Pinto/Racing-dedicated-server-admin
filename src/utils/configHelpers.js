@@ -72,6 +72,26 @@ export const penaltiesTypeToString = (type) => {
   }
 };
 
+// Convert damage scale to string
+export const damageScaleToString = (type) => {
+  switch (type) {
+  case 0: return 'LOW';
+  case 1: return 'MEDIUM';
+  case 2: return 'HIGH';
+  case 3: return 'MAX';
+  default: return 'MEDIUM';
+  }
+};
+
+// Convert pit control to string
+export const pitControlToString = (type) => {
+  switch (type) {
+  case 0: return 'Auto';
+  case 1: return 'Manual';
+  default: return 'Auto';
+  }
+};
+
 // Get weather name by ID
 export const getWeatherName = (weatherId) => {
   const weather = weatherData.find(w => w.value === weatherId);

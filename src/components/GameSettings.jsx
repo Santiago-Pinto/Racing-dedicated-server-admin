@@ -2,7 +2,7 @@ import { getInputValue } from '../utils/configHelpers';
 
 const GameSettings = ({ config, handleInputChange }) => {
   return (
-    <div className="config-section">
+    <div className="config-section game-settings-grid">
       <h3>Game Settings</h3>
 
       <div className="form-group">
@@ -15,6 +15,19 @@ const GameSettings = ({ config, handleInputChange }) => {
           <option value={1}>Visual Only</option>
           <option value={2}>Performance Impacting</option>
           <option value={3}>Full Damage</option>
+        </select>
+      </div>
+
+      <div className="form-group">
+        <label>Damage Scale:</label>
+        <select
+          value={getInputValue(config.damageScale)}
+          onChange={(e) => handleInputChange('damageScale', parseInt(e.target.value) || 1)}
+        >
+          <option value={0}>Low</option>
+          <option value={1}>Medium</option>
+          <option value={2}>High</option>
+          <option value={3}>Max</option>
         </select>
       </div>
 
@@ -56,6 +69,17 @@ const GameSettings = ({ config, handleInputChange }) => {
         >
           <option value={0}>No Penalties</option>
           <option value={1}>Full Penalties</option>
+        </select>
+      </div>
+
+      <div className="form-group">
+        <label>Pit Control:</label>
+        <select
+          value={getInputValue(config.manualPitStops)}
+          onChange={(e) => handleInputChange('manualPitStops', parseInt(e.target.value) || 0)}
+        >
+          <option value={0}>Auto</option>
+          <option value={1}>Manual</option>
         </select>
       </div>
     </div>

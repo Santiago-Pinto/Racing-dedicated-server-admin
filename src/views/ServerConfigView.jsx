@@ -17,6 +17,8 @@ import {
   getInputValue,
   tireWearTypeToString,
   fuelUsageTypeToString,
+  damageScaleToString,
+  pitControlToString,
 } from '../utils/configHelpers';
 import generateServerCfg from '../utils/generateServerCfg';
 import { DEFAULT_CONFIG, DEFAULT_ROTATION_MAPS } from '../utils/defaultConfig';
@@ -198,9 +200,11 @@ config : {
 
 		"Flags" : "${flagsToString(config.selectedFlags)}",
 		"DamageType" : "${damageTypeToString(config.damageType)}",
+		"DamageScale" : "${damageScaleToString(config.damageScale)}",
 		"TireWearType" : "${tireWearTypeToString(config.tireWearType)}",
 		"FuelUsageType" : "${fuelUsageTypeToString(config.fuelUsageType)}",
 		"PenaltiesType" : "${penaltiesTypeToString(config.penaltiesType)}",
+		"ManualPitStops" : "${pitControlToString(config.manualPitStops)}",
 		"AllowedViews" : "Any",
 
 		"RaceDateHour" : ${defaultMap.raceDateHour},

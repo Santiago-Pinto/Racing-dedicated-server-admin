@@ -30,12 +30,14 @@ export const DEFAULT_CONFIG = {
   serverControlsVehicle: 1,
   gridSize: 20,
   maxPlayers: 1,
-  opponentDifficulty: 50,
+  opponentDifficulty: 70,
   damageType: 3,
   tireWearType: 6,
   fuelUsageType: 0,
   penaltiesType: 1,
   allowedViews: 0,
+  damageScale: 1,
+  manualPitStops: 1,
   raceWeatherSlots: 1,
 
 
