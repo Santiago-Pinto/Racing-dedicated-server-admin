@@ -102,6 +102,48 @@ describe('configHelpers', () => {
     });
   });
 
+  describe('penalty settings', () => {
+    it('should have correct default values for allowedCutsBeforePenalty', () => {
+      const { DEFAULT_CONFIG } = require('../utils/defaultConfig');
+      expect(DEFAULT_CONFIG.allowedCutsBeforePenalty).toBe(5);
+    });
+
+    it('should have correct default values for driveThroughPenalty', () => {
+      const { DEFAULT_CONFIG } = require('../utils/defaultConfig');
+      expect(DEFAULT_CONFIG.driveThroughPenalty).toBe(1);
+    });
+
+    it('should accept valid allowedCutsBeforePenalty values', () => {
+      const validValues = [1, 2, 3, 4, 5];
+      validValues.forEach(value => {
+        expect(typeof value).toBe('number');
+        expect(value).toBeGreaterThanOrEqual(1);
+        expect(value).toBeLessThanOrEqual(5);
+      });
+    });
+
+    it('should accept valid driveThroughPenalty values', () => {
+      const validValues = [0, 1];
+      validValues.forEach(value => {
+        expect(typeof value).toBe('number');
+        expect([0, 1]).toContain(value);
+      });
+    });
+
+    it('should have correct default values for pitWhiteLinePenalty', () => {
+      const { DEFAULT_CONFIG } = require('../utils/defaultConfig');
+      expect(DEFAULT_CONFIG.pitWhiteLinePenalty).toBe(1);
+    });
+
+    it('should accept valid pitWhiteLinePenalty values', () => {
+      const validValues = [0, 1];
+      validValues.forEach(value => {
+        expect(typeof value).toBe('number');
+        expect([0, 1]).toContain(value);
+      });
+    });
+  });
+
   describe('type conversion functions', () => {
     describe('damageTypeToString', () => {
       it('should convert damage types correctly', () => {

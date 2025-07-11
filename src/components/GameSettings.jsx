@@ -93,6 +93,42 @@ const GameSettings = ({ config, handleInputChange }) => {
           <option value={1}>Rolling Start</option>
         </select>
       </div>
+
+      <div className="form-group">
+        <label>Allowed Cuts Before Penalty:</label>
+        <select
+          value={getInputValue(config.allowedCutsBeforePenalty)}
+          onChange={(e) => handleInputChange('allowedCutsBeforePenalty', parseInt(e.target.value) || 1)}
+        >
+          <option value={1}>1 Cut</option>
+          <option value={2}>2 Cuts</option>
+          <option value={3}>3 Cuts</option>
+          <option value={4}>4 Cuts</option>
+          <option value={5}>5 Cuts</option>
+        </select>
+      </div>
+
+      <div className="form-group">
+        <label>Drive-Through Penalty:</label>
+        <select
+          value={getInputValue(config.driveThroughPenalty)}
+          onChange={(e) => handleInputChange('driveThroughPenalty', parseInt(e.target.value) || 0)}
+        >
+          <option value={0}>Disabled</option>
+          <option value={1}>Enabled</option>
+        </select>
+      </div>
+
+      <div className="form-group">
+        <label>Pit White Line Penalty:</label>
+        <select
+          value={getInputValue(config.pitWhiteLinePenalty)}
+          onChange={(e) => handleInputChange('pitWhiteLinePenalty', parseInt(e.target.value) || 0)}
+        >
+          <option value={0}>Disabled</option>
+          <option value={1}>Enabled</option>
+        </select>
+      </div>
     </div>
   );
 };

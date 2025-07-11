@@ -207,6 +207,9 @@ config : {
 		"PenaltiesType" : "${penaltiesTypeToString(config.penaltiesType)}",
 		"ManualPitStops" : "${pitControlToString(config.manualPitStops)}",
 		"RaceRollingStart" : ${startTypeToRollingStart(config.startType)},
+		"AllowedCutsBeforePenalty" : ${config.allowedCutsBeforePenalty},
+		"DriveThroughPenalty" : ${config.driveThroughPenalty},
+		"PitWhiteLinePenalty" : ${(config.pitWhiteLinePenalty ?? 1)},
 		"AllowedViews" : "Any",
 
 		"RaceDateHour" : ${defaultMap.raceDateHour},
@@ -241,6 +244,9 @@ ${rotationMaps.map(map => `		{
 			"RaceLength" : ${map.raceLength},
 			"RaceDateHour" : ${map.raceDateHour},
 			"RaceRollingStart" : ${startTypeToRollingStart(config.startType)},
+			"AllowedCutsBeforePenalty" : ${config.allowedCutsBeforePenalty},
+			"DriveThroughPenalty" : ${config.driveThroughPenalty},
+			"PitWhiteLinePenalty" : ${(config.pitWhiteLinePenalty ?? 1)},
 			
 			// set weather for this event
 			"RaceWeatherSlots" : ${map.raceWeatherSlots},
