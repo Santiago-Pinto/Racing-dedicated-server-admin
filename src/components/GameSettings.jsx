@@ -22,7 +22,7 @@ const GameSettings = ({ config, handleInputChange }) => {
         <label>Damage Scale:</label>
         <select
           value={getInputValue(config.damageScale)}
-          onChange={(e) => handleInputChange('damageScale', parseInt(e.target.value) || 1)}
+          onChange={(e) => handleInputChange('damageScale', parseInt(e.target.value))}
         >
           <option value={0}>Low</option>
           <option value={1}>Medium</option>
