@@ -82,6 +82,17 @@ const GameSettings = ({ config, handleInputChange }) => {
           <option value={1}>Manual</option>
         </select>
       </div>
+
+      <div className="form-group">
+        <label>Start Type:</label>
+        <select
+          value={getInputValue(config.startType)}
+          onChange={(e) => handleInputChange('startType', parseInt(e.target.value) || 0)}
+        >
+          <option value={0}>Standing</option>
+          <option value={1}>Rolling Start</option>
+        </select>
+      </div>
     </div>
   );
 };

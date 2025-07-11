@@ -92,6 +92,15 @@ export const pitControlToString = (type) => {
   }
 };
 
+// Convert start type to rolling start value
+export const startTypeToRollingStart = (type) => {
+  switch (type) {
+  case 0: return 0; // Standing start
+  case 1: return 1; // Rolling start
+  default: return 0; // Default to standing start
+  }
+};
+
 // Get weather name by ID
 export const getWeatherName = (weatherId) => {
   const weather = weatherData.find(w => w.value === weatherId);

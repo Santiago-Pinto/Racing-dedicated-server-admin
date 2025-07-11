@@ -39,6 +39,7 @@ export const DEFAULT_CONFIG = {
   damageScale: 1,
   manualPitStops: 1,
   raceWeatherSlots: 1,
+  startType: 0, // 0 for standing start, 1 for rolling start
 
 
 

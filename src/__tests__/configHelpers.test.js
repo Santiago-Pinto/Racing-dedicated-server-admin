@@ -8,6 +8,7 @@ import {
   penaltiesTypeToString,
   damageScaleToString,
   pitControlToString,
+  startTypeToRollingStart,
   getWeatherName,
   getTrackNameById,
   getVehicleClassNameById,
@@ -80,6 +81,24 @@ describe('configHelpers', () => {
       const allFlagNames = sessionFlags.map(f => f.name);
       const result = flagsToString(allFlagValues);
       expect(result).toBe(allFlagNames.join(','));
+    });
+  });
+
+  describe('startTypeToRollingStart', () => {
+    it('should return 0 for standing start (type 0)', () => {
+      expect(startTypeToRollingStart(0)).toBe(0);
+    });
+
+    it('should return 1 for rolling start (type 1)', () => {
+      expect(startTypeToRollingStart(1)).toBe(1);
+    });
+
+    it('should return 0 for unknown type (default to standing)', () => {
+      expect(startTypeToRollingStart(999)).toBe(0);
+    });
+
+    it('should return 0 for undefined type', () => {
+      expect(startTypeToRollingStart(undefined)).toBe(0);
     });
   });
 

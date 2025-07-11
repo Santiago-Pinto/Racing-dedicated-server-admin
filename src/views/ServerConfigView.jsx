@@ -19,6 +19,7 @@ import {
   fuelUsageTypeToString,
   damageScaleToString,
   pitControlToString,
+  startTypeToRollingStart,
 } from '../utils/configHelpers';
 import generateServerCfg from '../utils/generateServerCfg';
 import { DEFAULT_CONFIG, DEFAULT_ROTATION_MAPS } from '../utils/defaultConfig';
@@ -205,6 +206,7 @@ config : {
 		"FuelUsageType" : "${fuelUsageTypeToString(config.fuelUsageType)}",
 		"PenaltiesType" : "${penaltiesTypeToString(config.penaltiesType)}",
 		"ManualPitStops" : "${pitControlToString(config.manualPitStops)}",
+		"RaceRollingStart" : ${startTypeToRollingStart(config.startType)},
 		"AllowedViews" : "Any",
 
 		"RaceDateHour" : ${defaultMap.raceDateHour},
@@ -238,6 +240,7 @@ ${rotationMaps.map(map => `		{
 			"QualifyLength" : ${map.qualifyLength},
 			"RaceLength" : ${map.raceLength},
 			"RaceDateHour" : ${map.raceDateHour},
+			"RaceRollingStart" : ${startTypeToRollingStart(config.startType)},
 			
 			// set weather for this event
 			"RaceWeatherSlots" : ${map.raceWeatherSlots},
