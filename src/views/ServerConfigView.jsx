@@ -214,6 +214,19 @@ config : {
 		"RaceWeatherSlot2" : "${getWeatherName(defaultMap.weatherSlots[1])}",
 		"RaceWeatherSlot3" : "${getWeatherName(defaultMap.weatherSlots[2])}",
 		"RaceWeatherSlot4" : "${getWeatherName(defaultMap.weatherSlots[3])}",
+		
+		// Practice and Qualify weather slots (same as RaceWeatherSlot1)
+		"PracticeWeatherSlots" : 1,
+		"PracticeWeatherSlot1" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"PracticeWeatherSlot2" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"PracticeWeatherSlot3" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"PracticeWeatherSlot4" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		
+		"QualifyWeatherSlots" : 1,
+		"QualifyWeatherSlot1" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"QualifyWeatherSlot2" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"QualifyWeatherSlot3" : "${getWeatherName(defaultMap.weatherSlots[0])}",
+		"QualifyWeatherSlot4" : "${getWeatherName(defaultMap.weatherSlots[0])}",
 	},
 
 	// The rotation. Array of setups to rotate. If empty, just the default setup will be used with no actual rotation happening.
@@ -232,6 +245,19 @@ ${rotationMaps.map(map => `		{
 			"RaceWeatherSlot2" : "${getWeatherName(map.weatherSlots[1])}",
 			"RaceWeatherSlot3" : "${getWeatherName(map.weatherSlots[2])}",
 			"RaceWeatherSlot4" : "${getWeatherName(map.weatherSlots[3])}",
+			
+			// Practice and Qualify weather slots (same as RaceWeatherSlot1)
+			"PracticeWeatherSlots" : 1,
+			"PracticeWeatherSlot1" : "${getWeatherName(map.weatherSlots[0])}",
+			"PracticeWeatherSlot2" : "${getWeatherName(map.weatherSlots[0])}",
+			"PracticeWeatherSlot3" : "${getWeatherName(map.weatherSlots[0])}",
+			"PracticeWeatherSlot4" : "${getWeatherName(map.weatherSlots[0])}",
+			
+			"QualifyWeatherSlots" : 1,
+			"QualifyWeatherSlot1" : "${getWeatherName(map.weatherSlots[0])}",
+			"QualifyWeatherSlot2" : "${getWeatherName(map.weatherSlots[0])}",
+			"QualifyWeatherSlot3" : "${getWeatherName(map.weatherSlots[0])}",
+			"QualifyWeatherSlot4" : "${getWeatherName(map.weatherSlots[0])}",
 		}`).join(',\n')}
 	]
 }`;
