@@ -462,7 +462,7 @@ ${rotationMaps.map(map => `		{
         />
       </div>
       <div className="form-group">
-        <label>Race Length (laps):</label>
+        <label>Race Length ({config.selectedFlags.includes(1048576) ? 'minutes' : 'laps'}):</label>
         <input
           type="number"
           min="1"
