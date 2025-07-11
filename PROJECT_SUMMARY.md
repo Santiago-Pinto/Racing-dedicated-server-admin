@@ -184,4 +184,10 @@ When resuming work on this project:
 - **Adding new data sources**: Update ams2Data.js and related components
 - **UI improvements**: Follow existing dark theme with red/orange/yellow accents
 - **Bug fixes**: Check console for errors, verify state management, test export functionality
-- **Code changes**: All relevant changes in the codebase should have corresponding tests or modifications to existing tests 
+- **Code changes**: All relevant changes in the codebase should have corresponding tests or modifications to existing tests
+
+## Cache Management Commands
+When experiencing issues with stale builds or cached styles not updating:
+1. **Stop Node.js processes**: `taskkill /f /im node.exe`
+2. **Clear Parcel cache**: `Remove-Item -Recurse -Force .parcel-cache`
+3. **Restart development server**: `npm start` or `npx parcel src/index.jsx` 
