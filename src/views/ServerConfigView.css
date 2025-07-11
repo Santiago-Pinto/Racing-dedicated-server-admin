@@ -206,6 +206,42 @@ body {
   background: var(--secondary-bg);
 }
 
+/* Custom dropdown arrow positioning with rotation */
+.form-group {
+  position: relative;
+}
+
+.form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 45px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-group::after {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e74c3c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.form-group:has(select:focus)::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
 .form-group input[type="checkbox"] {
   margin-right: 12px;
   transform: scale(1.3);
