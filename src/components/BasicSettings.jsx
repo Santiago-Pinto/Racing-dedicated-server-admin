@@ -33,6 +33,7 @@ const BasicSettings = ({ config, handleInputChange }) => {
           value={getInputValue(config.maxPlayerCount)}
           onChange={(e) => handleInputChange('maxPlayerCount', parseInt(e.target.value) || 0)}
         />
+        <small className="setting-note">Server capacity limit (total connections)</small>
       </div>
 
       <div className="form-group">

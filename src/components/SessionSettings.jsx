@@ -25,6 +25,7 @@ const SessionSettings = ({ config, handleInputChange }) => {
           value={getInputValue(config.maxPlayers)}
           onChange={(e) => handleInputChange('maxPlayers', parseInt(e.target.value) || 0)}
         />
+        <small className="setting-note">Human players in race (AI can fill remaining grid)</small>
       </div>
 
       <div className="form-group">
