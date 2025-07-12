@@ -2,7 +2,17 @@
 const { flagsToNumber } = require('./configHelpers');
 
 function generateServerCfg(config, rotationMaps) {
-  const defaultMap = rotationMaps[0];
+  const defaultMap = rotationMaps[0] || {
+    trackId: -1478712571, // Default Interlagos
+    vehicleClassId: 492525831, // Default Stock Car Brasil
+    vehicleModelId: 1323381033,
+    practiceLength: 10,
+    qualifyLength: 10,
+    raceLength: 10,
+    raceDateHour: 11,
+    raceWeatherSlots: 1,
+    weatherSlots: [-934211870, -934211870, -934211870, -934211870], // Default Clear weather
+  };
   return `// Logging level of the server. Messages of this severity and more important will be logged. Can be any of debug/info/warning/error.
 logLevel : "info"
 
