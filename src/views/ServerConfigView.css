@@ -220,11 +220,11 @@ body {
   cursor: pointer;
 }
 
-.form-group::after {
+.form-group:has(select)::after {
   content: '';
   position: absolute;
   right: 15px;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   width: 16px;
   height: 16px;
@@ -677,7 +677,11 @@ body {
 }
 
 .weather-slot-item select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   padding: 15px;
+  padding-right: 45px;
   border: 2px solid var(--border-color);
   border-radius: 8px;
   font-size: 14px;
@@ -685,12 +689,39 @@ body {
   color: var(--text-primary);
   transition: all 0.3s ease;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .weather-slot-item select:focus {
   border-color: var(--accent-red);
   box-shadow: 0 0 10px rgba(231, 76, 60, 0.2);
   outline: none;
+}
+
+.weather-slot-item {
+  position: relative;
+}
+
+.weather-slot-item::after {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e74c3c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.weather-slot-item:has(select:focus)::after {
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .save-success-toast {
