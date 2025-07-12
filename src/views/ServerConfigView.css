@@ -338,6 +338,12 @@ body {
   letter-spacing: normal;
 }
 
+.flag-item label input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.3);
+  accent-color: var(--accent-red);
+}
+
 .config-actions {
   display: flex;
   gap: 20px;

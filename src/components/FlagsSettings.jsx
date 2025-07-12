@@ -7,6 +7,14 @@ const FlagsSettings = ({ config, handleFlagToggle }) => {
     128: 'Traction Control Settings Allowed'
   };
 
+  const handleBoxClick = (flagValue, event) => {
+    // Allow the checkbox and label to handle their own events
+    if (event.target.type === 'checkbox' || event.target.tagName === 'LABEL') {
+      return;
+    }
+    handleFlagToggle(flagValue);
+  };
+
   return (
     <div className="config-section">
       <h3>Session Flags</h3>
@@ -14,7 +22,12 @@ const FlagsSettings = ({ config, handleFlagToggle }) => {
         {sessionFlags
           .sort((a, b) => a.name.localeCompare(b.name))
           .map(flag => (
-          <div key={flag.value} className="flag-item" style={{ position: 'relative' }}>
+          <div 
+            key={flag.value} 
+            className="flag-item" 
+            style={{ position: 'relative', cursor: 'pointer' }}
+            onClick={(e) => handleBoxClick(flag.value, e)}
+          >
             <label>
               <input
                 type="checkbox"
