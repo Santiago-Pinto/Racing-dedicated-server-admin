@@ -105,7 +105,7 @@ describe('configHelpers', () => {
   describe('penalty settings', () => {
     it('should have correct default values for allowedCutsBeforePenalty', () => {
       const { DEFAULT_CONFIG } = require('../utils/defaultConfig');
-      expect(DEFAULT_CONFIG.allowedCutsBeforePenalty).toBe(5);
+      expect(DEFAULT_CONFIG.allowedCutsBeforePenalty).toBe(3);
     });
 
     it('should have correct default values for driveThroughPenalty', () => {
