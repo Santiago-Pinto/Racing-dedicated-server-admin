@@ -31,7 +31,7 @@ export const DEFAULT_CONFIG = {
   gridSize: 20,
   maxPlayers: 1,
   opponentDifficulty: 70,
-  damageType: 3,
+  damageType: 1,
   tireWearType: 6,
   fuelUsageType: 0,
   penaltiesType: 1,
@@ -40,7 +40,7 @@ export const DEFAULT_CONFIG = {
   manualPitStops: 1,
   raceWeatherSlots: 1,
   startType: 0, // 0 for standing start, 1 for rolling start
-  allowedCutsBeforePenalty: 5, // Number of cuts allowed before penalty
+  allowedCutsBeforePenalty: 3, // Number of cuts allowed before penalty
   driveThroughPenalty: 1, // 1 for drive-through penalties enabled
   pitWhiteLinePenalty: 1, // 1 for pit white line penalties enabled
 
