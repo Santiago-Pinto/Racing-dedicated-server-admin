@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "config": {
+    "history_length": 2,
+    "track_events": true,
+    "track_results": true
+  }
+}

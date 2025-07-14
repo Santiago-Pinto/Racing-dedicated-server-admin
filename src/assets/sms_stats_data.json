@@ -1,1895 +1,186 @@
+// Persistent data for addon 'sms_stats', addon version 2.0
+// Automatically maintained by the addon, do not edit!
+
 {
-  "next_history_index" : 9,
+  "next_history_index" : 90,
   "stats" : {
     "history" : [
       {
-        "end_time" : 1751758458,
-        "finished" : false,
-        "index" : 1,
+        "end_time" : 1752466125,
+        "finished" : true,
+        "index" : 88,
         "members" : {},
         "participants" : {
-          "0" : {
-            "IsPlayer" : 1,
-            "LiveryId" : 65,
-            "Name" : "Santi",
-            "RefId" : 9664,
-            "SteamID" : "76561198860103060",
-            "VehicleId" : 1323381033
-          }
-        },
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135807736,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 30,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 30,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 10,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 10,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {
-          "practice1" : {
-            "end_time" : 1751758458,
-            "events" : {},
-            "results" : {},
-            "start_time" : 1751758327
-          }
-        },
-        "start_time" : 1751758303
-      },
-      {
-        "end_time" : 0,
-        "finished" : false,
-        "index" : 2,
-        "members" : {},
-        "participants" : {},
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135807736,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 30,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 30,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 10,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 10,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {},
-        "start_time" : 1751758590
-      },
-      {
-        "end_time" : 1751759111,
-        "finished" : false,
-        "index" : 3,
-        "members" : {},
-        "participants" : [
-          {
-            "IsPlayer" : 1,
-            "LiveryId" : 71,
-            "Name" : "Santi",
-            "RefId" : 37632,
-            "SteamID" : "76561198860103060",
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 62,
-            "Name" : "Lucas Foresti  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 58,
-            "Name" : "Felipe Lapenna  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 64,
-            "Name" : "Atila Abreu  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 74,
-            "Name" : "Max Wilson  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 77,
-            "Name" : "Gabriel Casagrande  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 70,
-            "Name" : "Ricardo Mauricio  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 56,
-            "Name" : "Valdeno Brito  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 51,
-            "Name" : "Caca Bueno  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 68,
-            "Name" : "Cesar Ramos  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 61,
-            "Name" : "Gustavo Lima  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 75,
-            "Name" : "Diego Nunes  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 55,
-            "Name" : "Julio Campos  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 60,
-            "Name" : "Pedro Cardoso  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 57,
-            "Name" : "Denis Navarro  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 66,
-            "Name" : "Galid Osman  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          {
-            "IsPlayer" : 0,
-            "LiveryId" : 72,
-            "Name" : "Rubens Barrichello  (AI)",
-            "RefId" : 37632,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          }
-        ],
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135938808,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 20,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 10,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 10,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {
-          "practice1" : {
-            "end_time" : 1751759111,
-            "events" : {},
-            "results" : {},
-            "start_time" : 1751759082
-          }
-        },
-        "start_time" : 1751759037
-      },
-      {
-        "end_time" : 1751759203,
-        "finished" : false,
-        "index" : 4,
-        "members" : {},
-        "participants" : {
-          "18" : {
-            "IsPlayer" : 1,
-            "LiveryId" : 71,
-            "Name" : "Santi",
-            "RefId" : 64640,
-            "SteamID" : "76561198860103060",
-            "VehicleId" : 1323381033
-          },
           "19" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 63,
-            "Name" : "Ricardo Zonta  (AI)",
-            "RefId" : 64640,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "IsPlayer" : 1,
+            "LiveryId" : 53,
+            "Name" : "Santi",
+            "RefId" : 17920,
+            "SteamID" : "76561198860103060",
+            "VehicleId" : -310556497
           },
           "20" : {
             "IsPlayer" : 0,
-            "LiveryId" : 59,
-            "Name" : "Rafael Suzuki  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 56,
+            "Name" : "Mitchell Carter  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -1416203489
           },
           "21" : {
             "IsPlayer" : 0,
-            "LiveryId" : 55,
-            "Name" : "Julio Campos  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 56,
+            "Name" : "Bia Figueiredo  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 809291220
           },
           "22" : {
             "IsPlayer" : 0,
-            "LiveryId" : 62,
-            "Name" : "Lucas Foresti  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 53,
+            "Name" : "Peter Lloyd  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 809291220
           },
           "23" : {
             "IsPlayer" : 0,
-            "LiveryId" : 60,
-            "Name" : "Pedro Cardoso  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 52,
+            "Name" : "Marco Kowalski  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -241187148
           },
           "24" : {
             "IsPlayer" : 0,
-            "LiveryId" : 70,
-            "Name" : "Ricardo Mauricio  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 52,
+            "Name" : "Fabian Steiner  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -1416203489
           },
           "25" : {
             "IsPlayer" : 0,
-            "LiveryId" : 66,
-            "Name" : "Galid Osman  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 55,
+            "Name" : "Julian Gagnon  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -1135637484
           },
           "26" : {
             "IsPlayer" : 0,
-            "LiveryId" : 61,
-            "Name" : "Gustavo Lima  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 57,
+            "Name" : "Xandy Negrao  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 1353949246
           },
           "27" : {
             "IsPlayer" : 0,
-            "LiveryId" : 72,
-            "Name" : "Rubens Barrichello  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 55,
+            "Name" : "Charles Burton  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -310556497
           },
           "28" : {
             "IsPlayer" : 0,
-            "LiveryId" : 51,
-            "Name" : "Caca Bueno  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 54,
+            "Name" : "Derik Walter  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 809291220
           },
           "29" : {
             "IsPlayer" : 0,
-            "LiveryId" : 75,
-            "Name" : "Diego Nunes  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 53,
+            "Name" : "Pete Townsend  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -1135637484
           },
           "30" : {
             "IsPlayer" : 0,
-            "LiveryId" : 71,
-            "Name" : "Nelson Piquet Jr  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 51,
+            "Name" : "Gregory Barrett  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 1353949246
           },
           "31" : {
             "IsPlayer" : 0,
-            "LiveryId" : 54,
-            "Name" : "Thiago Camilo  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 56,
+            "Name" : "Michael Johansen  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -241187148
           },
           "32" : {
             "IsPlayer" : 0,
-            "LiveryId" : 52,
-            "Name" : "Felipe Fraga  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 57,
+            "Name" : "Man Li  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -1135637484
           },
           "33" : {
             "IsPlayer" : 0,
-            "LiveryId" : 57,
-            "Name" : "Denis Navarro  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 55,
+            "Name" : "Jose Carlos Cortez  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : 1353949246
           },
           "34" : {
             "IsPlayer" : 0,
-            "LiveryId" : 73,
-            "Name" : "Bruno Baptista  (AI)",
-            "RefId" : 64640,
+            "LiveryId" : 54,
+            "Name" : "Allam Khodair  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
-          }
-        },
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135938808,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 20,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 10,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 10,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {
-          "practice1" : {
-            "end_time" : 1751759203,
-            "events" : {},
-            "results" : {},
-            "start_time" : 1751759191
-          }
-        },
-        "start_time" : 1751759163
-      },
-      {
-        "end_time" : 0,
-        "finished" : false,
-        "index" : 5,
-        "members" : {},
-        "participants" : {},
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135938808,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 20,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 0,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 0,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {},
-        "start_time" : 1751759338
-      },
-      {
-        "end_time" : 0,
-        "finished" : false,
-        "index" : 6,
-        "members" : {},
-        "participants" : {},
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 0,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135938808,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 20,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 0,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 0,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {},
-        "start_time" : 1751759441
-      },
-      {
-        "end_time" : 1751760707,
-        "finished" : true,
-        "index" : 7,
-        "members" : {},
-        "participants" : {
+            "VehicleId" : -310556497
+          },
           "35" : {
-            "IsPlayer" : 1,
-            "LiveryId" : 71,
-            "Name" : "Santi",
-            "RefId" : 15680,
-            "SteamID" : "76561198860103060",
-            "VehicleId" : 1323381033
+            "IsPlayer" : 0,
+            "LiveryId" : 55,
+            "Name" : "Stefan Mayer  (AI)",
+            "RefId" : 17920,
+            "SteamID" : 0,
+            "VehicleId" : 809291220
           },
           "36" : {
             "IsPlayer" : 0,
-            "LiveryId" : 72,
-            "Name" : "Rubens Barrichello  (AI)",
-            "RefId" : 15680,
+            "LiveryId" : 53,
+            "Name" : "Rik Berg  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -241187148
           },
           "37" : {
             "IsPlayer" : 0,
-            "LiveryId" : 76,
-            "Name" : "Marcos Gomes  (AI)",
-            "RefId" : 15680,
+            "LiveryId" : 55,
+            "Name" : "Charles Karlsen  (AI)",
+            "RefId" : 17920,
             "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "38" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 69,
-            "Name" : "Daniel Serra  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "39" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 60,
-            "Name" : "Pedro Cardoso  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "40" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 74,
-            "Name" : "Max Wilson  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "41" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 57,
-            "Name" : "Denis Navarro  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "42" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 62,
-            "Name" : "Lucas Foresti  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "43" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 78,
-            "Name" : "Marcel Coletta  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "44" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 64,
-            "Name" : "Atila Abreu  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "45" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 51,
-            "Name" : "Caca Bueno  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "46" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 54,
-            "Name" : "Thiago Camilo  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "47" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 67,
-            "Name" : "Allam Khodair  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "48" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 75,
-            "Name" : "Diego Nunes  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "49" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 58,
-            "Name" : "Felipe Lapenna  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "50" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 61,
-            "Name" : "Gustavo Lima  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
-          },
-          "51" : {
-            "IsPlayer" : 0,
-            "LiveryId" : 63,
-            "Name" : "Ricardo Zonta  (AI)",
-            "RefId" : 15680,
-            "SteamID" : 0,
-            "VehicleId" : 1323381033
+            "VehicleId" : -241187148
           }
         },
         "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
+          "AllowedCutsBeforePenalty" : 3,
           "AllowedViews" : 0,
           "AutoAdvanceSession" : 0,
           "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
+          "DamageScale" : 1,
+          "DamageType" : 1,
           "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 135938808,
+          "DriveThroughPenalty" : 1,
+          "Flags" : 672488,
           "FuelUsageType" : 0,
           "FullCourseYellows" : 0,
           "GridLayout" : 0,
           "GridSize" : 20,
-          "ManualPitStops" : 0,
+          "ManualPitStops" : 1,
           "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
-          "MinimumOnlineRank" : 0,
-          "MinimumOnlineStrength" : 100,
-          "MultiClassSlot1" : -1,
-          "MultiClassSlot2" : -1,
-          "MultiClassSlot3" : -1,
-          "MultiClassSlot4" : -1,
-          "MultiClassSlot5" : -1,
-          "MultiClassSlot6" : -1,
-          "MultiClassSlot7" : -1,
-          "MultiClassSlot8" : -1,
-          "MultiClassSlot9" : -1,
-          "MultiClassSlots" : 0,
-          "OpponentDifficulty" : 50,
-          "PenaltiesType" : 1,
-          "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
-          "PracticeDateProgression" : 1,
-          "PracticeLength" : 1,
-          "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 0,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
-          "QualifyDateProgression" : 1,
-          "QualifyLength" : 1,
-          "QualifyLiveTrackPreset" : 0,
-          "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 0,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
-          "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
-          "RaceExtraLap" : 0,
-          "RaceFormationLap" : 0,
-          "RaceLength" : 8,
-          "RaceLiveTrackPreset" : 0,
-          "RaceMandatoryPitStops" : 0,
-          "RaceMandatoryPitStopsMinTyres" : 0,
-          "RaceRollingStart" : 0,
-          "RaceScheduledFullCourseYellow" : 0,
-          "RaceWeatherProgression" : 0,
-          "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
-          "ServerControlsSetup" : 1,
-          "ServerControlsTrack" : 1,
-          "ServerControlsVehicle" : 0,
-          "ServerControlsVehicleClass" : 1,
-          "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
-          "VehicleModelId" : 1323381033
-        },
-        "stages" : {
-          "practice1" : {
-            "end_time" : 1751759846,
-            "events" : {},
-            "results" : [
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 1,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Ricardo Zonta  (AI)",
-                "participantid" : 51,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 2,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Gustavo Lima  (AI)",
-                "participantid" : 50,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 3,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Felipe Lapenna  (AI)",
-                "participantid" : 49,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 4,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Diego Nunes  (AI)",
-                "participantid" : 48,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 5,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Allam Khodair  (AI)",
-                "participantid" : 47,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 6,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Thiago Camilo  (AI)",
-                "participantid" : 46,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 7,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Caca Bueno  (AI)",
-                "participantid" : 45,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 8,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Atila Abreu  (AI)",
-                "participantid" : 44,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 9,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcel Coletta  (AI)",
-                "participantid" : 43,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 10,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Lucas Foresti  (AI)",
-                "participantid" : 42,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 11,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Denis Navarro  (AI)",
-                "participantid" : 41,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 12,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Max Wilson  (AI)",
-                "participantid" : 40,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 13,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Pedro Cardoso  (AI)",
-                "participantid" : 39,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 14,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Daniel Serra  (AI)",
-                "participantid" : 38,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 15,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcos Gomes  (AI)",
-                "participantid" : 37,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 16,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Rubens Barrichello  (AI)",
-                "participantid" : 36,
-                "refid" : 15680,
-                "time" : 1751759824
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 17,
-                  "State" : "Finished",
-                  "TotalTime" : 78884,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : true,
-                "name" : "Santi",
-                "participantid" : 35,
-                "refid" : 15680,
-                "time" : 1751759824
-              }
-            ],
-            "start_time" : 1751759641
-          },
-          "qualifying1" : {
-            "end_time" : 1751760067,
-            "events" : {},
-            "results" : [
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 1,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Ricardo Zonta  (AI)",
-                "participantid" : 51,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 2,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Gustavo Lima  (AI)",
-                "participantid" : 50,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 3,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Felipe Lapenna  (AI)",
-                "participantid" : 49,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 4,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Diego Nunes  (AI)",
-                "participantid" : 48,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 5,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Allam Khodair  (AI)",
-                "participantid" : 47,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 6,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Thiago Camilo  (AI)",
-                "participantid" : 46,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 7,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Caca Bueno  (AI)",
-                "participantid" : 45,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 8,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Atila Abreu  (AI)",
-                "participantid" : 44,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 9,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcel Coletta  (AI)",
-                "participantid" : 43,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 10,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Lucas Foresti  (AI)",
-                "participantid" : 42,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 11,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Denis Navarro  (AI)",
-                "participantid" : 41,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 12,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Max Wilson  (AI)",
-                "participantid" : 40,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 13,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Pedro Cardoso  (AI)",
-                "participantid" : 39,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 14,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Daniel Serra  (AI)",
-                "participantid" : 38,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 15,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcos Gomes  (AI)",
-                "participantid" : 37,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 16,
-                  "State" : "Finished",
-                  "TotalTime" : 0,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Rubens Barrichello  (AI)",
-                "participantid" : 36,
-                "refid" : 15680,
-                "time" : 1751760049
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 0,
-                  "Lap" : 0,
-                  "RacePosition" : 17,
-                  "State" : "Finished",
-                  "TotalTime" : 65716,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : true,
-                "name" : "Santi",
-                "participantid" : 35,
-                "refid" : 15680,
-                "time" : 1751760049
-              }
-            ],
-            "start_time" : 1751759846
-          },
-          "race1" : {
-            "end_time" : 1751760706,
-            "events" : {},
-            "results" : [
-              {
-                "attributes" : {
-                  "FastestLapTime" : 115740,
-                  "Lap" : 4,
-                  "RacePosition" : 1,
-                  "State" : "Finished",
-                  "TotalTime" : 489534,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Diego Nunes  (AI)",
-                "participantid" : 48,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 116968,
-                  "Lap" : 4,
-                  "RacePosition" : 2,
-                  "State" : "Finished",
-                  "TotalTime" : 489576,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Thiago Camilo  (AI)",
-                "participantid" : 46,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 117230,
-                  "Lap" : 4,
-                  "RacePosition" : 3,
-                  "State" : "Finished",
-                  "TotalTime" : 490173,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Ricardo Zonta  (AI)",
-                "participantid" : 51,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 116946,
-                  "Lap" : 4,
-                  "RacePosition" : 4,
-                  "State" : "Finished",
-                  "TotalTime" : 490433,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Caca Bueno  (AI)",
-                "participantid" : 45,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 115960,
-                  "Lap" : 4,
-                  "RacePosition" : 5,
-                  "State" : "Finished",
-                  "TotalTime" : 490653,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Daniel Serra  (AI)",
-                "participantid" : 38,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 117406,
-                  "Lap" : 4,
-                  "RacePosition" : 6,
-                  "State" : "Finished",
-                  "TotalTime" : 493713,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Allam Khodair  (AI)",
-                "participantid" : 47,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 119040,
-                  "Lap" : 4,
-                  "RacePosition" : 7,
-                  "State" : "Finished",
-                  "TotalTime" : 497953,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Rubens Barrichello  (AI)",
-                "participantid" : 36,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 117886,
-                  "Lap" : 4,
-                  "RacePosition" : 8,
-                  "State" : "Finished",
-                  "TotalTime" : 498074,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcos Gomes  (AI)",
-                "participantid" : 37,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 122025,
-                  "Lap" : 4,
-                  "RacePosition" : 9,
-                  "State" : "Finished",
-                  "TotalTime" : 498833,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Gustavo Lima  (AI)",
-                "participantid" : 50,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 119006,
-                  "Lap" : 4,
-                  "RacePosition" : 10,
-                  "State" : "Finished",
-                  "TotalTime" : 499433,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Denis Navarro  (AI)",
-                "participantid" : 41,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 120046,
-                  "Lap" : 4,
-                  "RacePosition" : 11,
-                  "State" : "Finished",
-                  "TotalTime" : 501053,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Felipe Lapenna  (AI)",
-                "participantid" : 49,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 119067,
-                  "Lap" : 4,
-                  "RacePosition" : 12,
-                  "State" : "Finished",
-                  "TotalTime" : 501093,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Marcel Coletta  (AI)",
-                "participantid" : 43,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 119824,
-                  "Lap" : 4,
-                  "RacePosition" : 13,
-                  "State" : "Finished",
-                  "TotalTime" : 502473,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Lucas Foresti  (AI)",
-                "participantid" : 42,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 120164,
-                  "Lap" : 4,
-                  "RacePosition" : 14,
-                  "State" : "Finished",
-                  "TotalTime" : 502561,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Pedro Cardoso  (AI)",
-                "participantid" : 39,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 120127,
-                  "Lap" : 4,
-                  "RacePosition" : 15,
-                  "State" : "Finished",
-                  "TotalTime" : 502636,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Max Wilson  (AI)",
-                "participantid" : 40,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 121441,
-                  "Lap" : 4,
-                  "RacePosition" : 16,
-                  "State" : "Finished",
-                  "TotalTime" : 502973,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : false,
-                "name" : "Atila Abreu  (AI)",
-                "participantid" : 44,
-                "refid" : 15680,
-                "time" : 1751760685
-              },
-              {
-                "attributes" : {
-                  "FastestLapTime" : 126991,
-                  "Lap" : 1,
-                  "RacePosition" : 17,
-                  "State" : "DNF",
-                  "TotalTime" : 611404,
-                  "VehicleId" : 1323381033
-                },
-                "is_player" : true,
-                "name" : "Santi",
-                "participantid" : 35,
-                "refid" : 15680,
-                "time" : 1751760685
-              }
-            ],
-            "start_time" : 1751760067
-          }
-        },
-        "start_time" : 1751759608
-      },
-      {
-        "end_time" : 0,
-        "finished" : false,
-        "index" : 8,
-        "members" : {},
-        "participants" : {},
-        "setup" : {
-          "AllowedCutsBeforePenalty" : 0,
-          "AllowedViews" : 0,
-          "AutoAdvanceSession" : 1,
-          "DamageRandomFailures" : 0,
-          "DamageScale" : 0,
-          "DamageType" : 3,
-          "DisablePitstopRefuelling" : 0,
-          "DriveThroughPenalty" : 0,
-          "Flags" : 1721081,
-          "FuelUsageType" : 0,
-          "FullCourseYellows" : 0,
-          "GridLayout" : 0,
-          "GridSize" : 20,
-          "ManualPitStops" : 0,
-          "ManualRollingStarts" : 0,
-          "MaxPlayers" : 4,
+          "MaxPlayers" : 2,
           "MinimumOnlineRank" : 0,
           "MinimumOnlineStrength" : 100,
           "MultiClassSlot1" : -1,
@@ -1905,36 +196,36 @@
           "OpponentDifficulty" : 70,
           "PenaltiesType" : 1,
           "PitSpeedLimit" : 0,
-          "PitWhiteLinePenalty" : 0,
-          "PracticeDateHour" : 17,
+          "PitWhiteLinePenalty" : 1,
+          "PracticeDateHour" : 11,
           "PracticeDateProgression" : 1,
-          "PracticeLength" : 5,
+          "PracticeLength" : 0,
           "PracticeLiveTrackPreset" : 0,
-          "PracticeWeatherProgression" : 1,
-          "PracticeWeatherSlot1" : 0,
-          "PracticeWeatherSlot2" : 0,
-          "PracticeWeatherSlot3" : 0,
-          "PracticeWeatherSlot4" : 0,
-          "PracticeWeatherSlots" : 0,
-          "QualifyDateHour" : 17,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : -934211870,
+          "PracticeWeatherSlot2" : -934211870,
+          "PracticeWeatherSlot3" : -934211870,
+          "PracticeWeatherSlot4" : -934211870,
+          "PracticeWeatherSlots" : 1,
+          "QualifyDateHour" : 11,
           "QualifyDateProgression" : 1,
-          "QualifyLength" : 5,
+          "QualifyLength" : 1,
           "QualifyLiveTrackPreset" : 0,
           "QualifyPrivateSession" : 0,
-          "QualifyWeatherProgression" : 1,
-          "QualifyWeatherSlot1" : 0,
-          "QualifyWeatherSlot2" : 0,
-          "QualifyWeatherSlot3" : 0,
-          "QualifyWeatherSlot4" : 0,
-          "QualifyWeatherSlots" : 0,
-          "RaceDateDay" : 12,
-          "RaceDateHour" : 17,
-          "RaceDateMonth" : 11,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : -934211870,
+          "QualifyWeatherSlot2" : -934211870,
+          "QualifyWeatherSlot3" : -934211870,
+          "QualifyWeatherSlot4" : -934211870,
+          "QualifyWeatherSlots" : 1,
+          "RaceDateDay" : 3,
+          "RaceDateHour" : 11,
+          "RaceDateMonth" : 5,
           "RaceDateProgression" : 1,
-          "RaceDateYear" : 2021,
+          "RaceDateYear" : 2020,
           "RaceExtraLap" : 0,
           "RaceFormationLap" : 0,
-          "RaceLength" : 10,
+          "RaceLength" : 1,
           "RaceLiveTrackPreset" : 0,
           "RaceMandatoryPitStops" : 0,
           "RaceMandatoryPitStopsMinTyres" : 0,
@@ -1942,21 +233,3057 @@
           "RaceScheduledFullCourseYellow" : 0,
           "RaceWeatherProgression" : 0,
           "RaceWeatherSlot1" : -934211870,
-          "RaceWeatherSlot2" : 888299130,
-          "RaceWeatherSlot3" : -1592958063,
-          "RaceWeatherSlot4" : 296956818,
-          "RaceWeatherSlots" : 4,
+          "RaceWeatherSlot2" : -934211870,
+          "RaceWeatherSlot3" : -934211870,
+          "RaceWeatherSlot4" : -934211870,
+          "RaceWeatherSlots" : 1,
           "ServerControlsSetup" : 1,
           "ServerControlsTrack" : 1,
           "ServerControlsVehicle" : 0,
           "ServerControlsVehicleClass" : 1,
           "TireWearType" : 6,
-          "TrackId" : -1478712571,
-          "VehicleClassId" : 492525831,
+          "TrackId" : 1153901510,
+          "VehicleClassId" : -112887377,
+          "VehicleModelId" : 1323381033
+        },
+        "stages" : {
+          "qualifying1" : {
+            "end_time" : 1752465994,
+            "events" : [
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 367,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 303,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 363,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 585,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 385,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 645,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 401,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 636,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 612,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 575,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 385,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 351,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 567,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 388,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 360,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 377,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 592,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 626,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465820
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 549,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465821
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465826
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 833,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465827
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465827
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465827
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752465828
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465829
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 343,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465830
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752465831
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 594,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465831
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465832
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752465834
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752465835
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 399,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465836
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465837
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465838
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752465839
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752465840
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465840
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752465841
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752465843
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 624,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465844
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465845
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465846
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752465846
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465847
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752465848
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752465849
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752465850
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465852
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752465853
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752465854
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752465855
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752465857
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752465858
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 744,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465858
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 591,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465858
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752465861
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752465862
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752465864
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465865
+              },
+              {
+                "attributes" : {
+                  "NewState" : "ExitingPits",
+                  "PreviousState" : "InGarage"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465867
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 991,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 855,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 654,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 609,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 464,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 748,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 484,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 776,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 543,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 401,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 572,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 670,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 433,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 407,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 665,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 353,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 828,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 695,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 985,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465868
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 377,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 743,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 605,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 575,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 634,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Racing",
+                  "PreviousState" : "ExitingPits"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 884,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465869
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 749,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465870
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 533,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465870
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 768,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465870
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 338,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465871
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 526,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465873
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 551,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465873
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 443,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465876
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 452,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465876
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 666,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465876
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 508,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465876
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465877
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 699,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465877
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 701,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465877
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 549,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465877
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752465880
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465884
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752465884
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465888
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465889
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752465889
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752465892
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465894
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752465896
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752465897
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752465898
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465901
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752465904
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752465906
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465910
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465910
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465912
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 1541,
+                  "Lap" : 0,
+                  "LapTime" : 42859,
+                  "RacePosition" : 9,
+                  "Sector1Time" : 11279,
+                  "Sector2Time" : 19360,
+                  "Sector3Time" : 12220
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465913
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465913
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 1612,
+                  "Lap" : 0,
+                  "LapTime" : 41500,
+                  "RacePosition" : 17,
+                  "Sector1Time" : 11220,
+                  "Sector2Time" : 19100,
+                  "Sector3Time" : 11180
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 766,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752465936
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 490,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465941
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 343,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465941
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 644,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752465942
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 659,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752465947
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465953
+              }
+            ],
+            "results" : [
+              {
+                "attributes" : {
+                  "FastestLapTime" : 41500,
+                  "Lap" : 1,
+                  "RacePosition" : 1,
+                  "State" : "Finished",
+                  "TotalTime" : 41500,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 42859,
+                  "Lap" : 1,
+                  "RacePosition" : 2,
+                  "State" : "Finished",
+                  "TotalTime" : 42859,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 3,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 4,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 5,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 6,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 7,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 8,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 9,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 10,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 11,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 12,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 13,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 14,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 15,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1416203489
+                },
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 16,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 17,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 18,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1416203489
+                },
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752465918
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 19,
+                  "State" : "Finished",
+                  "TotalTime" : 0,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752465918
+              }
+            ],
+            "start_time" : 1752465820
+          },
+          "race1" : {
+            "end_time" : 1752466124,
+            "events" : [
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 430,
+                  "OtherParticipantId" : 31
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466003
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 885,
+                  "OtherParticipantId" : 31
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466004
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 381,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752466010
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 587,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752466011
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 775,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752466012
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 457,
+                  "OtherParticipantId" : 30
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466018
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 439,
+                  "OtherParticipantId" : 24
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752466022
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 330,
+                  "OtherParticipantId" : 27
+                },
+                "event_name" : "Impact",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466025
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 781,
+                  "Lap" : 0,
+                  "LapTime" : 43932,
+                  "RacePosition" : 1,
+                  "Sector1Time" : 13731,
+                  "Sector2Time" : 19121,
+                  "Sector3Time" : 11080
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752466043
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752466043
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 780,
+                  "Lap" : 0,
+                  "LapTime" : 44832,
+                  "RacePosition" : 2,
+                  "Sector1Time" : 14151,
+                  "Sector2Time" : 19401,
+                  "Sector3Time" : 11280
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752466044
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752466044
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 781,
+                  "Lap" : 0,
+                  "LapTime" : 46352,
+                  "RacePosition" : 3,
+                  "Sector1Time" : 14751,
+                  "Sector2Time" : 19981,
+                  "Sector3Time" : 11620
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752466045
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752466045
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 786,
+                  "Lap" : 0,
+                  "LapTime" : 47712,
+                  "RacePosition" : 4,
+                  "Sector1Time" : 15451,
+                  "Sector2Time" : 20361,
+                  "Sector3Time" : 11900
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 787,
+                  "Lap" : 0,
+                  "LapTime" : 48052,
+                  "RacePosition" : 5,
+                  "Sector1Time" : 15791,
+                  "Sector2Time" : 20321,
+                  "Sector3Time" : 11940
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 787,
+                  "Lap" : 0,
+                  "LapTime" : 48352,
+                  "RacePosition" : 6,
+                  "Sector1Time" : 16151,
+                  "Sector2Time" : 20281,
+                  "Sector3Time" : 11920
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752466047
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 791,
+                  "Lap" : 0,
+                  "LapTime" : 49632,
+                  "RacePosition" : 7,
+                  "Sector1Time" : 16732,
+                  "Sector2Time" : 20740,
+                  "Sector3Time" : 12160
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466048
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466048
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 791,
+                  "Lap" : 0,
+                  "LapTime" : 50012,
+                  "RacePosition" : 8,
+                  "Sector1Time" : 17193,
+                  "Sector2Time" : 20839,
+                  "Sector3Time" : 11980
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752466049
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752466049
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 793,
+                  "Lap" : 0,
+                  "LapTime" : 50932,
+                  "RacePosition" : 9,
+                  "Sector1Time" : 17712,
+                  "Sector2Time" : 21200,
+                  "Sector3Time" : 12020
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752466050
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752466050
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 797,
+                  "Lap" : 0,
+                  "LapTime" : 51252,
+                  "RacePosition" : 10,
+                  "Sector1Time" : 18072,
+                  "Sector2Time" : 21140,
+                  "Sector3Time" : 12040
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752466050
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752466050
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 790,
+                  "Lap" : 0,
+                  "LapTime" : 52672,
+                  "RacePosition" : 11,
+                  "Sector1Time" : 19092,
+                  "Sector2Time" : 21680,
+                  "Sector3Time" : 11900
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752466051
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752466051
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 807,
+                  "Lap" : 0,
+                  "LapTime" : 53513,
+                  "RacePosition" : 12,
+                  "Sector1Time" : 18532,
+                  "Sector2Time" : 22800,
+                  "Sector3Time" : 12181
+                },
+                "event_name" : "Lap",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 809,
+                  "Lap" : 0,
+                  "LapTime" : 53772,
+                  "RacePosition" : 13,
+                  "Sector1Time" : 19072,
+                  "Sector2Time" : 22740,
+                  "Sector3Time" : 11960
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 805,
+                  "Lap" : 0,
+                  "LapTime" : 54212,
+                  "RacePosition" : 14,
+                  "Sector1Time" : 19634,
+                  "Sector2Time" : 22578,
+                  "Sector3Time" : 12000
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 797,
+                  "Lap" : 0,
+                  "LapTime" : 54552,
+                  "RacePosition" : 15,
+                  "Sector1Time" : 19712,
+                  "Sector2Time" : 22840,
+                  "Sector3Time" : 12000
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752466053
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 809,
+                  "Lap" : 0,
+                  "LapTime" : 55152,
+                  "RacePosition" : 16,
+                  "Sector1Time" : 20232,
+                  "Sector2Time" : 22740,
+                  "Sector3Time" : 12180
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752466054
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752466054
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 802,
+                  "Lap" : 0,
+                  "LapTime" : 55852,
+                  "RacePosition" : 17,
+                  "Sector1Time" : 20312,
+                  "Sector2Time" : 23180,
+                  "Sector3Time" : 12360
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 814,
+                  "Lap" : 0,
+                  "LapTime" : 56112,
+                  "RacePosition" : 18,
+                  "Sector1Time" : 20773,
+                  "Sector2Time" : 23039,
+                  "Sector3Time" : 12300
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "CountThisLapTimes" : 1,
+                  "DistanceTravelled" : 812,
+                  "Lap" : 0,
+                  "LapTime" : 56592,
+                  "RacePosition" : 19,
+                  "Sector1Time" : 21397,
+                  "Sector2Time" : 22875,
+                  "Sector3Time" : 12320
+                },
+                "event_name" : "Lap",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "NewState" : "Finished",
+                  "PreviousState" : "Racing"
+                },
+                "event_name" : "State",
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752466055
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 682,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752466098
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752466103
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 788,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752466105
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 1000,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752466105
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 367,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466111
+              },
+              {
+                "attributes" : {
+                  "CollisionMagnitude" : 441,
+                  "OtherParticipantId" : -1
+                },
+                "event_name" : "Impact",
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466111
+              }
+            ],
+            "results" : [
+              {
+                "attributes" : {
+                  "FastestLapTime" : 43932,
+                  "Lap" : 1,
+                  "RacePosition" : 1,
+                  "State" : "Finished",
+                  "TotalTime" : 43932,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Bia Figueiredo  (AI)",
+                "participantid" : 21,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 44832,
+                  "Lap" : 1,
+                  "RacePosition" : 2,
+                  "State" : "Finished",
+                  "TotalTime" : 44832,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Pete Townsend  (AI)",
+                "participantid" : 29,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 46352,
+                  "Lap" : 1,
+                  "RacePosition" : 3,
+                  "State" : "Finished",
+                  "TotalTime" : 46352,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Charles Karlsen  (AI)",
+                "participantid" : 37,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 47712,
+                  "Lap" : 1,
+                  "RacePosition" : 4,
+                  "State" : "Finished",
+                  "TotalTime" : 47712,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Rik Berg  (AI)",
+                "participantid" : 36,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 48052,
+                  "Lap" : 1,
+                  "RacePosition" : 5,
+                  "State" : "Finished",
+                  "TotalTime" : 48052,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Stefan Mayer  (AI)",
+                "participantid" : 35,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 48352,
+                  "Lap" : 1,
+                  "RacePosition" : 6,
+                  "State" : "Finished",
+                  "TotalTime" : 48352,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : false,
+                "name" : "Allam Khodair  (AI)",
+                "participantid" : 34,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 49632,
+                  "Lap" : 1,
+                  "RacePosition" : 7,
+                  "State" : "Finished",
+                  "TotalTime" : 49632,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Jose Carlos Cortez  (AI)",
+                "participantid" : 33,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 50012,
+                  "Lap" : 1,
+                  "RacePosition" : 8,
+                  "State" : "Finished",
+                  "TotalTime" : 50012,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Michael Johansen  (AI)",
+                "participantid" : 31,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 50932,
+                  "Lap" : 1,
+                  "RacePosition" : 9,
+                  "State" : "Finished",
+                  "TotalTime" : 50932,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Man Li  (AI)",
+                "participantid" : 32,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 51252,
+                  "Lap" : 1,
+                  "RacePosition" : 10,
+                  "State" : "Finished",
+                  "TotalTime" : 51252,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Gregory Barrett  (AI)",
+                "participantid" : 30,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 52672,
+                  "Lap" : 1,
+                  "RacePosition" : 11,
+                  "State" : "Finished",
+                  "TotalTime" : 52672,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Derik Walter  (AI)",
+                "participantid" : 28,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 53513,
+                  "Lap" : 1,
+                  "RacePosition" : 12,
+                  "State" : "Finished",
+                  "TotalTime" : 53513,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : true,
+                "name" : "Santi",
+                "participantid" : 19,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 13,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : -310556497
+                },
+                "is_player" : false,
+                "name" : "Charles Burton  (AI)",
+                "participantid" : 27,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 14,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1135637484
+                },
+                "is_player" : false,
+                "name" : "Julian Gagnon  (AI)",
+                "participantid" : 25,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 15,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : 1353949246
+                },
+                "is_player" : false,
+                "name" : "Xandy Negrao  (AI)",
+                "participantid" : 26,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 16,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : -241187148
+                },
+                "is_player" : false,
+                "name" : "Marco Kowalski  (AI)",
+                "participantid" : 23,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 17,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1416203489
+                },
+                "is_player" : false,
+                "name" : "Fabian Steiner  (AI)",
+                "participantid" : 24,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 18,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : 809291220
+                },
+                "is_player" : false,
+                "name" : "Peter Lloyd  (AI)",
+                "participantid" : 22,
+                "refid" : 17920,
+                "time" : 1752466052
+              },
+              {
+                "attributes" : {
+                  "FastestLapTime" : 0,
+                  "Lap" : 0,
+                  "RacePosition" : 19,
+                  "State" : "Racing",
+                  "TotalTime" : 0,
+                  "VehicleId" : -1416203489
+                },
+                "is_player" : false,
+                "name" : "Mitchell Carter  (AI)",
+                "participantid" : 20,
+                "refid" : 17920,
+                "time" : 1752466052
+              }
+            ],
+            "start_time" : 1752465994
+          }
+        },
+        "start_time" : 1752465765
+      },
+      {
+        "end_time" : 0,
+        "finished" : false,
+        "index" : 89,
+        "members" : {},
+        "participants" : {},
+        "setup" : {
+          "AllowedCutsBeforePenalty" : 3,
+          "AllowedViews" : 0,
+          "AutoAdvanceSession" : 0,
+          "DamageRandomFailures" : 0,
+          "DamageScale" : 1,
+          "DamageType" : 1,
+          "DisablePitstopRefuelling" : 0,
+          "DriveThroughPenalty" : 1,
+          "Flags" : 672489,
+          "FuelUsageType" : 0,
+          "FullCourseYellows" : 0,
+          "GridLayout" : 0,
+          "GridSize" : 20,
+          "ManualPitStops" : 1,
+          "ManualRollingStarts" : 0,
+          "MaxPlayers" : 2,
+          "MinimumOnlineRank" : 0,
+          "MinimumOnlineStrength" : 100,
+          "MultiClassSlot1" : -1,
+          "MultiClassSlot2" : -1,
+          "MultiClassSlot3" : -1,
+          "MultiClassSlot4" : -1,
+          "MultiClassSlot5" : -1,
+          "MultiClassSlot6" : -1,
+          "MultiClassSlot7" : -1,
+          "MultiClassSlot8" : -1,
+          "MultiClassSlot9" : -1,
+          "MultiClassSlots" : 0,
+          "OpponentDifficulty" : 70,
+          "PenaltiesType" : 1,
+          "PitSpeedLimit" : 0,
+          "PitWhiteLinePenalty" : 1,
+          "PracticeDateHour" : 11,
+          "PracticeDateProgression" : 1,
+          "PracticeLength" : 0,
+          "PracticeLiveTrackPreset" : 0,
+          "PracticeWeatherProgression" : 0,
+          "PracticeWeatherSlot1" : -934211870,
+          "PracticeWeatherSlot2" : -934211870,
+          "PracticeWeatherSlot3" : -934211870,
+          "PracticeWeatherSlot4" : -934211870,
+          "PracticeWeatherSlots" : 1,
+          "QualifyDateHour" : 11,
+          "QualifyDateProgression" : 1,
+          "QualifyLength" : 1,
+          "QualifyLiveTrackPreset" : 0,
+          "QualifyPrivateSession" : 0,
+          "QualifyWeatherProgression" : 0,
+          "QualifyWeatherSlot1" : -934211870,
+          "QualifyWeatherSlot2" : -934211870,
+          "QualifyWeatherSlot3" : -934211870,
+          "QualifyWeatherSlot4" : -934211870,
+          "QualifyWeatherSlots" : 1,
+          "RaceDateDay" : 3,
+          "RaceDateHour" : 11,
+          "RaceDateMonth" : 5,
+          "RaceDateProgression" : 1,
+          "RaceDateYear" : 2020,
+          "RaceExtraLap" : 0,
+          "RaceFormationLap" : 0,
+          "RaceLength" : 1,
+          "RaceLiveTrackPreset" : 0,
+          "RaceMandatoryPitStops" : 0,
+          "RaceMandatoryPitStopsMinTyres" : 0,
+          "RaceRollingStart" : 0,
+          "RaceScheduledFullCourseYellow" : 0,
+          "RaceWeatherProgression" : 0,
+          "RaceWeatherSlot1" : -934211870,
+          "RaceWeatherSlot2" : -934211870,
+          "RaceWeatherSlot3" : -934211870,
+          "RaceWeatherSlot4" : -934211870,
+          "RaceWeatherSlots" : 1,
+          "ServerControlsSetup" : 1,
+          "ServerControlsTrack" : 1,
+          "ServerControlsVehicle" : 0,
+          "ServerControlsVehicleClass" : 1,
+          "TireWearType" : 6,
+          "TrackId" : 1153901510,
+          "VehicleClassId" : -112887377,
           "VehicleModelId" : 1323381033
         },
         "stages" : {},
-        "start_time" : 1751760707
+        "start_time" : 1752466125
       }
     ],
     "players" : {
@@ -1969,70 +3296,139 @@
           },
           "race" : {
             "positions" : {
-              "17" : 1
+              "11" : 3,
+              "12" : 2,
+              "14" : 1,
+              "17" : 2,
+              "18" : 1,
+              "19" : 3,
+              "3" : 1,
+              "4" : 1
             },
             "positions_per_size" : {
               "0" : {
-                "17" : 1
+                "11" : 1,
+                "12" : 1,
+                "14" : 1,
+                "17" : 1,
+                "18" : 1,
+                "19" : 1,
+                "3" : 1,
+                "4" : 1
               }
             },
             "states" : {
-              "dnf" : 1
+              "dnf" : 1,
+              "finished" : 12,
+              "retired" : 1
             }
           },
           "race_finishes" : 0,
-          "race_joins" : 7,
+          "race_joins" : 75,
           "race_loads" : 0,
           "race_loads_done" : 0,
           "track_distances" : {
-            "-1478712571" : 4372
+            "-1478712571" : 26246,
+            "-1939104917" : 3420,
+            "1153901510" : 3255,
+            "202837760" : 16913,
+            "731129913" : 10054,
+            "775712153" : 14049
           },
           "tracks" : {},
           "vehicle_distances" : {
-            "1323381033" : 4372
+            "-1404228714" : 12893,
+            "-310556497" : 36985,
+            "-487937394" : 3420,
+            "1323381033" : 14426,
+            "1947909519" : 6213
           },
           "vehicles" : {}
         },
-        "last_joined" : 1751759607,
+        "last_joined" : 1752465764,
         "name" : "Santi"
+      },
+      "76561199467726480" : {
+        "counts" : {
+          "qualify" : {
+            "positions" : {},
+            "positions_per_size" : {},
+            "states" : {}
+          },
+          "race" : {
+            "positions" : {},
+            "positions_per_size" : {},
+            "states" : {}
+          },
+          "race_finishes" : 0,
+          "race_joins" : 1,
+          "race_loads" : 0,
+          "race_loads_done" : 0,
+          "track_distances" : {},
+          "tracks" : {},
+          "vehicle_distances" : {},
+          "vehicles" : {}
+        },
+        "last_joined" : 1752100768,
+        "name" : "Fenllan"
       }
     },
     "server" : {
-      "name" : "CASLA ATN",
-      "steam_disconnects" : 0,
-      "steam_downtime" : 0,
-      "total_steam_downtime" : 0,
-      "total_uptime" : "1985.37",
-      "uptime" : "1409.97"
+      "name" : "My dedicated server",
+      "steam_disconnects" : 1,
+      "steam_downtime" : 1,
+      "total_steam_downtime" : 1,
+      "total_uptime" : "24973.2",
+      "uptime" : "403.594"
     },
     "session" : {
       "counts" : {
-        "lobbies" : 8,
+        "lobbies" : 89,
         "player_finishes" : 0,
         "player_loads" : 0,
         "player_loads_done" : 0,
-        "race_finishes" : 1,
-        "race_loads" : 4,
-        "race_loads_done" : 4,
-        "sessions" : 7,
+        "race_finishes" : 14,
+        "race_loads" : 44,
+        "race_loads_done" : 44,
+        "sessions" : 75,
         "stage_counts" : {
-          "practice1" : 4,
-          "qualifying1" : 1,
-          "race1" : 1
+          "practice1" : 24,
+          "qualifying1" : 26,
+          "race1" : 21
         },
         "stage_durations" : {
-          "practice1" : 377391,
-          "qualifying1" : 220625,
-          "race1" : 639484
+          "practice1" : 3136535,
+          "qualifying1" : 4941373,
+          "race1" : 4339108
         },
         "track_distances" : {
-          "-1478712571" : 4372
+          "-1478712571" : 26246,
+          "-1939104917" : 3420,
+          "1153901510" : 3255,
+          "202837760" : 16913,
+          "731129913" : 10054,
+          "775712153" : 14049
         },
         "tracks" : {
-          "-1478712571" : 4
+          "-1478712571" : 18,
+          "-1939104917" : 2,
+          "-435924753" : 3,
+          "-498735748" : 2,
+          "-676667056" : 1,
+          "1153901510" : 4,
+          "1544603199" : 1,
+          "202837760" : 3,
+          "21132368" : 2,
+          "731129913" : 3,
+          "775712153" : 4,
+          "788137081" : 1
         },
         "vehicle_distances" : {
-          "1323381033" : 4372
+          "-1404228714" : 12893,
+          "-310556497" : 36985,
+          "-487937394" : 3420,
+          "1323381033" : 14426,
+          "1947909519" : 6213
         },
         "vehicles" : {}
       }

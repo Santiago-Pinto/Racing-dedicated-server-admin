@@ -67,8 +67,64 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
     }
   };
 
+  const handleSelectSmsStatsData = async () => {
+    if (!isFileSystemSupported) {
+      setStatusMessage('File System Access API not supported in this browser.');
+      return;
+    }
+
+    try {
+      const handles = await window.showOpenFilePicker({
+        multiple: false,
+        types: [{
+          description: 'SMS Stats Data File',
+          accept: { 'application/json': ['.json'] }
+        }]
+      });
+
+      setFileHandles(prev => ({ ...prev, smsStatsData: handles[0] }));
+      setStatusMessage('SMS stats data file selected successfully!');
+      setTimeout(() => setStatusMessage(''), 3000);
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        setStatusMessage('File selection cancelled.');
+      } else {
+        setStatusMessage('Error selecting SMS stats data file: ' + error.message);
+      }
+      setTimeout(() => setStatusMessage(''), 4000);
+    }
+  };
+
+  const handleSelectSmsStatsConfig = async () => {
+    if (!isFileSystemSupported) {
+      setStatusMessage('File System Access API not supported in this browser.');
+      return;
+    }
+
+    try {
+      const handles = await window.showOpenFilePicker({
+        multiple: false,
+        types: [{
+          description: 'SMS Stats Configuration File',
+          accept: { 'application/json': ['.json'] }
+        }]
+      });
+
+      setFileHandles(prev => ({ ...prev, smsStatsConfig: handles[0] }));
+      setStatusMessage('SMS stats config file selected successfully!');
+      setTimeout(() => setStatusMessage(''), 3000);
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        setStatusMessage('File selection cancelled.');
+      } else {
+        setStatusMessage('Error selecting SMS stats config file: ' + error.message);
+      }
+      setTimeout(() => setStatusMessage(''), 4000);
+    }
+  };
+
   const handleClearFileHandles = () => {
-    setFileHandles({ serverCfg: null, smsRotate: null });
+    setFileHandles({ serverCfg: null, smsRotate: null, smsStatsData: null, smsStatsConfig: null });
     setStatusMessage('File handles cleared.');
     setTimeout(() => setStatusMessage(''), 2000);
   };
@@ -111,8 +167,39 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
             </button>
           </div>
         </div>
+        
+        <div className="file-selection-divider">
+          <span className="divider-text">Optional Files (Required for Career Mode)</span>
+        </div>
+        
+        <div className="file-selection-item optional-file">
+          <label>SMS Stats Data File: <span className="optional-badge">(Optional)</span></label>
+          <div className="file-selection-controls">
+            <span className="file-name">{getFileName(fileHandles.smsStatsData)}</span>
+            <button
+              className="btn-select-file"
+              onClick={handleSelectSmsStatsData}
+            >
+              {fileHandles.smsStatsData ? 'Change File' : 'Select File'}
+            </button>
+          </div>
+          <p className="file-description">Required for Career Mode server logs and statistics tracking.</p>
+        </div>
+        <div className="file-selection-item optional-file">
+          <label>SMS Stats Config File: <span className="optional-badge">(Optional)</span></label>
+          <div className="file-selection-controls">
+            <span className="file-name">{getFileName(fileHandles.smsStatsConfig)}</span>
+            <button
+              className="btn-select-file"
+              onClick={handleSelectSmsStatsConfig}
+            >
+              {fileHandles.smsStatsConfig ? 'Change File' : 'Select File'}
+            </button>
+          </div>
+          <p className="file-description">Required for Career Mode statistics configuration and history settings.</p>
+        </div>
       </div>
-      {(fileHandles.serverCfg || fileHandles.smsRotate) && (
+      {(fileHandles.serverCfg || fileHandles.smsRotate || fileHandles.smsStatsData || fileHandles.smsStatsConfig) && (
         <div className="file-actions">
           <button
             className="btn-clear-files"
@@ -138,7 +225,8 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
       <div className="file-override-instructions">
         <h4>How to use:</h4>
         <ol>
-          <li>Select your existing <code>server.cfg</code> and <code>sms_rotate_config.json</code> files</li>
+          <li>Select your existing <code>server.cfg</code> and <code>sms_rotate_config.json</code> files (required for dedicated server)</li>
+          <li><strong>Optional:</strong> Select <code>sms_stats_data.json</code> and <code>sms_stats_config.json</code> files for Career Mode features</li>
           <li>Configure your server settings in the other tabs</li>
           <li>Save your configuration</li>
           <li>Go to the main actions area and click "Update Files" to override the selected files</li>

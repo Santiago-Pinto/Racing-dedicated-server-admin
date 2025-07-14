@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { tracksData, carsData, weatherData } from '../data/ams2Data';
 import BasicSettings from '../components/BasicSettings';
 import NetworkSettings from '../components/NetworkSettings';
@@ -26,6 +27,7 @@ import { DEFAULT_CONFIG, DEFAULT_ROTATION_MAPS } from '../utils/defaultConfig';
 import './ServerConfigView.css';
 
 const ServerConfig = () => {
+  const navigate = useNavigate();
   const [config, setConfig] = useState(DEFAULT_CONFIG);
 
   // Rotation maps state
@@ -38,7 +40,7 @@ const ServerConfig = () => {
   const [steamUrlToast, setSteamUrlToast] = useState(null);
   const steamUrlTimeoutRef = useRef(null);
   // Move fileHandles state up here
-  const [fileHandles, setFileHandles] = useState({ serverCfg: null, smsRotate: null });
+  const [fileHandles, setFileHandles] = useState({ serverCfg: null, smsRotate: null, smsStatsData: null, smsStatsConfig: null });
   const [updateFilesToast, setUpdateFilesToast] = useState(null);
   const updateFilesTimeoutRef = useRef(null);
   const [showSavedCheck, setShowSavedCheck] = useState(false);
@@ -281,6 +283,57 @@ ${rotationMaps.map(map => `		{
       await smsRotateWritable.write(rotationConfigContent);
       await smsRotateWritable.close();
 
+      // Write to sms_stats_data.json if selected
+      if (fileHandles.smsStatsData) {
+        try {
+          // Use basic structure for SMS stats data
+          const smsStatsDataContent = `// Persistent data for addon 'sms_stats', addon version 2.0
+// Automatically maintained by the addon, do not edit!
+
+{
+  "next_history_index" : 0,
+  "stats" : {
+    "history" : []
+  }
+}`;
+          const smsStatsDataWritable = await fileHandles.smsStatsData.createWritable();
+          await smsStatsDataWritable.write(smsStatsDataContent);
+          await smsStatsDataWritable.close();
+        } catch (error) {
+          // Fallback error handling without console
+          setUpdateFilesToast('Error updating SMS stats data file: ' + error.message);
+          if (updateFilesTimeoutRef.current) clearTimeout(updateFilesTimeoutRef.current);
+          updateFilesTimeoutRef.current = setTimeout(() => {
+            setUpdateFilesToast(null);
+          }, 4000);
+        }
+      }
+
+      // Write to sms_stats_config.json if selected
+      if (fileHandles.smsStatsConfig) {
+        try {
+          // Use the exact content from the assets file
+          const smsStatsConfigContent = `// Config version
+version : 2
+
+// Default configuration
+config : {
+	"history_length" : 2,
+	"track_events" : true,
+	"track_results" : true,
+}`;
+          const smsStatsConfigWritable = await fileHandles.smsStatsConfig.createWritable();
+          await smsStatsConfigWritable.write(smsStatsConfigContent);
+          await smsStatsConfigWritable.close();
+        } catch (error) {
+          setUpdateFilesToast('Error updating SMS stats config file: ' + error.message);
+          if (updateFilesTimeoutRef.current) clearTimeout(updateFilesTimeoutRef.current);
+          updateFilesTimeoutRef.current = setTimeout(() => {
+            setUpdateFilesToast(null);
+          }, 4000);
+        }
+      }
+
       setUpdateFilesToast('Files updated successfully! Your AMS2 server configuration has been updated.');
       if (updateFilesTimeoutRef.current) clearTimeout(updateFilesTimeoutRef.current);
       updateFilesTimeoutRef.current = setTimeout(() => {
@@ -345,6 +398,10 @@ ${rotationMaps.map(map => `		{
     steamUrlTimeoutRef.current = setTimeout(() => {
       setSteamUrlToast(null);
     }, 2500);
+  };
+
+  const handleBackToHome = () => {
+    navigate('/');
   };
 
 
@@ -524,7 +581,12 @@ ${rotationMaps.map(map => `		{
 
   return (
     <div className="server-config">
-      <h2>Racing Server Configuration</h2>
+      <div className="config-header">
+        <button onClick={handleBackToHome} className="back-button">
+          ← Back to Home
+        </button>
+        <h2>Racing Server Configuration</h2>
+      </div>
       
       <div className="disclaimer">
         <p><strong>Disclaimer:</strong> This is an unofficial tool for educational and personal use only. 
