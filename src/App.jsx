@@ -1,11 +1,14 @@
 import { AuthProvider } from './context/AuthContext';
 import AppContent from './components/AppContent';
+import { RaceLogProvider } from './context/RaceLogContext';
 
 function App() {
   return (
-    <AuthProvider>
-      <AppContent />
-    </AuthProvider>
+    <RaceLogProvider>
+      <AuthProvider>
+        <AppContent />
+      </AuthProvider>
+    </RaceLogProvider>
   );
 }
 

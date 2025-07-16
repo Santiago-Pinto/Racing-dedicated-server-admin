@@ -25,6 +25,10 @@ import {
 import generateServerCfg from '../utils/generateServerCfg';
 import { DEFAULT_CONFIG, DEFAULT_ROTATION_MAPS } from '../utils/defaultConfig';
 import './ServerConfigView.css';
+import { useRaceLog } from '../context/RaceLogContext';
+import { parseRaceLog } from '../utils/raceLogParser';
+
+/* global fetch, setInterval, clearInterval */
 
 const ServerConfig = () => {
   const navigate = useNavigate();
@@ -44,6 +48,8 @@ const ServerConfig = () => {
   const [updateFilesToast, setUpdateFilesToast] = useState(null);
   const updateFilesTimeoutRef = useRef(null);
   const [showSavedCheck, setShowSavedCheck] = useState(false);
+  const { setRaceLog } = useRaceLog();
+  const pollingRef = useRef(null);
 
   // Cleanup timeouts on unmount
   useEffect(() => {
@@ -51,6 +57,7 @@ const ServerConfig = () => {
       if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
       if (steamUrlTimeoutRef.current) clearTimeout(steamUrlTimeoutRef.current);
       if (updateFilesTimeoutRef.current) clearTimeout(updateFilesTimeoutRef.current);
+      if (pollingRef.current) clearInterval(pollingRef.current);
     };
   }, []);
 
@@ -398,6 +405,29 @@ config : {
     steamUrlTimeoutRef.current = setTimeout(() => {
       setSteamUrlToast(null);
     }, 2500);
+
+    // Start race log polling logic
+    if (pollingRef.current) clearInterval(pollingRef.current);
+    setRaceLog(null); // Reset previous log
+    setTimeout(() => {
+      const poll = async () => {
+        try {
+          const res = await fetch('/assets/sms_stats_data.json?_=' + Date.now());
+          if (!res.ok) return;
+          const json = await res.json();
+          const playerSteamId = Object.keys(json.stats.players)[0];
+          const parsed = parseRaceLog(json, playerSteamId);
+          if (parsed.finished) {
+            setRaceLog(parsed);
+            clearInterval(pollingRef.current);
+          }
+        } catch {
+          // Ignore errors
+        }
+      };
+      poll();
+      pollingRef.current = setInterval(poll, 5000);
+    }, 180000); // 3 minutes
   };
 
   const handleBackToHome = () => {

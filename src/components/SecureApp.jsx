@@ -7,6 +7,7 @@ import Login from './Login';
 const HomeView = lazy(() => import('../views/HomeView'));
 const CareerView = lazy(() => import('../views/CareerView'));
 const ServerConfigView = lazy(() => import('../views/ServerConfigView'));
+const RaceLogsView = lazy(() => import('../views/RaceLogsView'));
 
 const SecureApp = () => {
   const { isAuthenticated, isLoading, logout } = useAuth();
@@ -41,6 +42,7 @@ const SecureApp = () => {
           <Route path="/" element={<HomeView />} />
           <Route path="/career" element={<CareerView />} />
           <Route path="/dedicated-server-settings" element={<ServerConfigView />} />
+          <Route path="/race-logs" element={<RaceLogsView />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>

@@ -1,8 +1,29 @@
 import { useState, useEffect } from 'react';
+import { set, get } from 'idb-keyval';
+
+const FILE_KEYS = ['serverCfg', 'smsRotate', 'smsStatsData', 'smsStatsConfig'];
 
 const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) => {
   const [isFileSystemSupported] = [ 'showOpenFilePicker' in window ];
   const [statusMessage, setStatusMessage] = useState('');
+
+  // Restore file handles from IndexedDB on mount
+  useEffect(() => {
+    (async () => {
+      if (!isFileSystemSupported) return;
+      const restored = {};
+      for (const key of FILE_KEYS) {
+        try {
+          const handle = await get(key);
+          if (handle) restored[key] = handle;
+        } catch { /* ignore errors restoring file handles */ }
+      }
+      if (Object.keys(restored).length > 0) {
+        setFileHandles(prev => ({ ...prev, ...restored }));
+      }
+    })();
+    // eslint-disable-next-line
+  }, []);
 
   // Notify parent component when file handles change
   useEffect(() => {
@@ -16,7 +37,6 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
       setStatusMessage('File System Access API not supported in this browser.');
       return;
     }
-
     try {
       const handles = await window.showOpenFilePicker({
         multiple: false,
@@ -25,8 +45,8 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
           accept: { 'text/plain': ['.cfg'] }
         }]
       });
-
       setFileHandles(prev => ({ ...prev, serverCfg: handles[0] }));
+      await set('serverCfg', handles[0]);
       setStatusMessage('Server.cfg file selected successfully!');
       setTimeout(() => setStatusMessage(''), 3000);
     } catch (error) {
@@ -44,7 +64,6 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
       setStatusMessage('File System Access API not supported in this browser.');
       return;
     }
-
     try {
       const handles = await window.showOpenFilePicker({
         multiple: false,
@@ -53,8 +72,8 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
           accept: { 'application/json': ['.json'] }
         }]
       });
-
       setFileHandles(prev => ({ ...prev, smsRotate: handles[0] }));
+      await set('smsRotate', handles[0]);
       setStatusMessage('SMS rotate config file selected successfully!');
       setTimeout(() => setStatusMessage(''), 3000);
     } catch (error) {
@@ -72,7 +91,6 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
       setStatusMessage('File System Access API not supported in this browser.');
       return;
     }
-
     try {
       const handles = await window.showOpenFilePicker({
         multiple: false,
@@ -81,8 +99,8 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
           accept: { 'application/json': ['.json'] }
         }]
       });
-
       setFileHandles(prev => ({ ...prev, smsStatsData: handles[0] }));
+      await set('smsStatsData', handles[0]);
       setStatusMessage('SMS stats data file selected successfully!');
       setTimeout(() => setStatusMessage(''), 3000);
     } catch (error) {
@@ -100,7 +118,6 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
       setStatusMessage('File System Access API not supported in this browser.');
       return;
     }
-
     try {
       const handles = await window.showOpenFilePicker({
         multiple: false,
@@ -109,8 +126,8 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
           accept: { 'application/json': ['.json'] }
         }]
       });
-
       setFileHandles(prev => ({ ...prev, smsStatsConfig: handles[0] }));
+      await set('smsStatsConfig', handles[0]);
       setStatusMessage('SMS stats config file selected successfully!');
       setTimeout(() => setStatusMessage(''), 3000);
     } catch (error) {
@@ -123,8 +140,11 @@ const FilePathSettings = ({ fileHandles, setFileHandles, onFileHandlesChange }) 
     }
   };
 
-  const handleClearFileHandles = () => {
+  const handleClearFileHandles = async () => {
     setFileHandles({ serverCfg: null, smsRotate: null, smsStatsData: null, smsStatsConfig: null });
+    for (const key of FILE_KEYS) {
+      await set(key, null);
+    }
     setStatusMessage('File handles cleared.');
     setTimeout(() => setStatusMessage(''), 2000);
   };
